@@ -1,9 +1,53 @@
 [
   {
-    "question": "No sistema operacional **Windows**, qual atalho permite abrir o **Gerenciador de Tarefas** diretamente?",
+    "question": "Qual atalho de teclado, no **Windows**, permite abrir o **Explorador de Arquivos** (antigo Windows Explorer) diretamente?",
     "answers": [
       {
+        "option": "Ctrl + E",
+        "correct": false
+      },
+      {
+        "option": "Windows + E",
+        "correct": true
+      },
+      {
+        "option": "Windows + F",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Windows + D",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Windows + E** é o padrão para abrir o Explorador de Arquivos."
+  },
+  {
+    "question": "Para **bloquear o computador** e retornar à tela de login no **Windows** de forma rápida, qual atalho deve ser utilizado?",
+    "answers": [
+      {
+        "option": "Alt + F4",
+        "correct": false
+      },
+      {
         "option": "Ctrl + Alt + Del",
+        "correct": false
+      },
+      {
+        "option": "Windows + L",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + L",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Windows + L** (de 'Lock' ou 'Bloquear') bloqueia a sessão imediatamente."
+  },
+  {
+    "question": "Qual atalho de teclado é utilizado no **Windows** para abrir o **Gerenciador de Tarefas** sem passar pela tela de segurança?",
+    "answers": [
+      {
+        "option": "Windows + T",
         "correct": false
       },
       {
@@ -11,95 +55,29 @@
         "correct": true
       },
       {
-        "option": "Alt + F4",
+        "option": "Alt + Tab",
         "correct": false
       },
       {
-        "option": "Windows + Shift + M",
+        "option": "Windows + Alt + G",
         "correct": false
       }
     ],
-    "reforço": "O atalho **Ctrl + Shift + Esc** abre o Gerenciador de Tarefas imediatamente no Windows, sem passar pela tela de segurança."
+    "reforço": "O atalho **Ctrl + Shift + Esc** abre o Gerenciador de Tarefas diretamente."
   },
   {
-    "question": "No **MS Word**, o usuário deseja aplicar a formatação **Sublinhado Duplo** ao texto selecionado. Qual atalho de teclado realiza essa formatação?",
+    "question": "Para exibir ou ocultar a **Área de Trabalho** (minimizar todas as janelas abertas) no **Windows**, qual atalho é o mais eficiente?",
     "answers": [
       {
-        "option": "Ctrl + U",
+        "option": "Windows + M",
         "correct": false
       },
       {
-        "option": "Ctrl + Shift + D",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Alt + D",
+        "option": "Alt + Tab",
         "correct": false
       },
       {
-        "option": "Ctrl + Shift + S",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + Shift + D** aplica o Sublinhado Duplo no MS Word."
-  },
-  {
-    "question": "No **MS Excel**, para aplicar o formato de **Moeda (Contábil)** rapidamente a uma coluna de valores selecionada, qual atalho é utilizado?",
-    "answers": [
-      {
-        "option": "Ctrl + Shift + 1 (!)",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + 4 ($)",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Shift + 5 (%)",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Alt + C",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + Shift + 4 ($)** aplica o formato de moeda no MS Excel."
-  },
-  {
-    "question": "Em navegadores como **Google Chrome** ou **Mozilla Firefox**, qual atalho de teclado permite abrir uma **nova janela** no modo de **navegação anônima** ou **privativa**?",
-    "answers": [
-      {
-        "option": "Ctrl + N",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + T",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + N",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + W",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + Shift + N** abre a janela de navegação privada/anônima."
-  },
-  {
-    "question": "No **MS PowerPoint**, para inserir um **Novo Slide** na apresentação, qual atalho de teclado é utilizado?",
-    "answers": [
-      {
-        "option": "Ctrl + N",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + S",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + M",
+        "option": "Windows + D",
         "correct": true
       },
       {
@@ -107,39 +85,101 @@
         "correct": false
       }
     ],
-    "reforço": "O atalho **Ctrl + M** (New Slide) insere um novo slide na apresentação."
+    "reforço": "O atalho **Windows + D** alterna entre mostrar e ocultar a Área de Trabalho."
   },
   {
-    "question": "Em um editor de texto (como MS Word ou Google Docs), qual atalho de teclado permite **colar o conteúdo da Área de Transferência, descartando toda a formatação** (colar apenas o texto) ?",
+    "question": "Qual atalho de teclado no **Windows** é usado para abrir a caixa de diálogo **Executar**?",
     "answers": [
       {
-        "option": "Ctrl + V",
+        "option": "Windows + E",
         "correct": false
       },
       {
-        "option": "Ctrl + Alt + V",
+        "option": "Ctrl + R",
         "correct": false
       },
       {
-        "option": "Ctrl + Shift + V",
+        "option": "Windows + R",
         "correct": true
       },
       {
-        "option": "Alt + V",
+        "option": "Windows + X",
         "correct": false
       }
     ],
-    "reforço": "O atalho **Ctrl + Shift + V** cola o conteúdo sem formatação (somente texto) em muitos aplicativos de produtividade."
+    "reforço": "O atalho **Windows + R** abre a caixa de diálogo 'Executar', usada para iniciar programas por nome."
   },
   {
-    "question": "No **Windows**, qual atalho é usado para ativar o modo de **recorte de tela seletivo** (Ferramenta de Recorte)?",
+    "question": "Para alternar entre os aplicativos ou janelas abertas no **Windows**, qual é o atalho clássico?",
     "answers": [
       {
-        "option": "PrtScn",
+        "option": "Ctrl + Tab",
         "correct": false
       },
       {
-        "option": "Windows + PrintScreen",
+        "option": "Alt + Tab",
+        "correct": true
+      },
+      {
+        "option": "Windows + Tab",
+        "correct": false
+      },
+      {
+        "option": "Alt + Esc",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Alt + Tab** permite alternar rapidamente entre as janelas dos aplicativos abertos."
+  },
+  {
+    "question": "Qual atalho de teclado é usado no **Windows** para fechar a janela ou o aplicativo que está ativo no momento?",
+    "answers": [
+      {
+        "option": "Ctrl + F4",
+        "correct": false
+      },
+      {
+        "option": "Windows + W",
+        "correct": false
+      },
+      {
+        "option": "Alt + F4",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Shift + F4",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Alt + F4** fecha a janela ativa."
+  },
+  {
+    "question": "Para abrir o painel de **Configurações** (Settings) no **Windows**, qual atalho deve ser usado?",
+    "answers": [
+      {
+        "option": "Ctrl + I",
+        "correct": false
+      },
+      {
+        "option": "Windows + C",
+        "correct": false
+      },
+      {
+        "option": "Windows + I",
+        "correct": true
+      },
+      {
+        "option": "Alt + S",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Windows + I** (de 'Settings' ou 'Informações') abre o painel de Configurações."
+  },
+  {
+    "question": "Qual atalho de teclado permite ao usuário no **Windows** abrir o painel de **Captura de Tela** (Recorte) para selecionar e copiar uma área específica da tela?",
+    "answers": [
+      {
+        "option": "Print Screen (PrtScn)",
         "correct": false
       },
       {
@@ -149,89 +189,137 @@
       {
         "option": "Alt + PrtScn",
         "correct": false
-      }
-    ],
-    "reforço": "O atalho **Windows + Shift + S** abre a Ferramenta de Recorte do Windows, permitindo selecionar e copiar parte da tela."
-  },
-  {
-    "question": "No **MS Excel**, se um usuário pressionar **Ctrl + 9**, qual ação será realizada?",
-    "answers": [
-      {
-        "option": "Ocultar as linhas selecionadas.",
-        "correct": true
       },
       {
-        "option": "Ocultar as colunas selecionadas.",
-        "correct": false
-      },
-      {
-        "option": "Inserir a hora atual.",
-        "correct": false
-      },
-      {
-        "option": "Exibir a guia Desenvolvedor.",
+        "option": "Ctrl + Alt + S",
         "correct": false
       }
     ],
-    "reforço": "No Excel, **Ctrl + 9** oculta as linhas selecionadas. **Ctrl + 0** oculta as colunas."
+    "reforço": "O atalho **Windows + Shift + S** ativa a Ferramenta de Recorte do Windows."
   },
   {
-    "question": "Em navegadores (**Google Chrome, Firefox**), para fechar a **guia atual** que está em foco, qual atalho de teclado deve ser utilizado?",
+    "question": "Em qualquer janela do **Windows** (como Explorador de Arquivos ou navegadores), qual atalho seleciona **todos** os itens ou texto?",
     "answers": [
       {
-        "option": "Alt + F4",
+        "option": "Ctrl + C",
         "correct": false
       },
       {
-        "option": "Ctrl + F4",
+        "option": "Ctrl + X",
         "correct": false
       },
-      {
-        "option": "Ctrl + W",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Q",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + W** fecha a guia ativa (o aplicativo só fecha se for a última guia)."
-  },
-  {
-    "question": "No **MS Word**, qual atalho permite aplicar ou remover o formato **TODAS AS MAIÚSCULAS** ao texto selecionado?",
-    "answers": [
       {
         "option": "Ctrl + A",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + K",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + A",
         "correct": true
       },
       {
-        "option": "Ctrl + Alt + U",
+        "option": "Ctrl + S",
         "correct": false
       }
     ],
-    "reforço": "O atalho **Ctrl + Shift + A** alterna o texto selecionado para TODAS AS MAIÚSCULAS."
+    "reforço": "O atalho **Ctrl + A** (de 'All' ou 'Tudo') é universal para selecionar todos os elementos."
   },
   {
-    "question": "Ao usar o **Microsoft Teams** durante uma reunião, qual atalho é utilizado para **compartilhar ou interromper o compartilhamento** da sua tela?",
+    "question": "Qual atalho de teclado é utilizado no **Windows** para abrir o **Menu de Acesso Rápido** (também conhecido como Menu Power User, com opções como Gerenciador de Dispositivos e Prompt de Comando)?",
     "answers": [
       {
-        "option": "Ctrl + Shift + M",
+        "option": "Ctrl + X",
         "correct": false
       },
       {
-        "option": "Ctrl + Shift + E",
+        "option": "Windows + Z",
+        "correct": false
+      },
+      {
+        "option": "Windows + X",
         "correct": true
       },
       {
-        "option": "Ctrl + Shift + D",
+        "option": "Alt + X",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Windows + X** abre o menu de contexto avançado do botão Iniciar."
+  },
+  {
+    "question": "Para fixar uma janela à **metade esquerda** da tela no **Windows** (função 'Snap'), qual atalho deve ser usado?",
+    "answers": [
+      {
+        "option": "Windows + Seta para Cima",
+        "correct": false
+      },
+      {
+        "option": "Windows + Seta para Baixo",
+        "correct": false
+      },
+      {
+        "option": "Windows + Seta para a Esquerda",
+        "correct": true
+      },
+      {
+        "option": "Windows + Seta para a Direita",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Windows + Seta para a Esquerda** ajusta a janela ativa para ocupar o lado esquerdo da tela."
+  },
+  {
+    "question": "Qual atalho de teclado, no **Windows**, permite alternar para a **Visão de Tarefas** (Task View), mostrando todas as áreas de trabalho virtuais e janelas abertas?",
+    "answers": [
+      {
+        "option": "Ctrl + Tab",
+        "correct": false
+      },
+      {
+        "option": "Windows + Tab",
+        "correct": true
+      },
+      {
+        "option": "Alt + Tab",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Esc",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Windows + Tab** abre a Visão de Tarefas, diferentemente do Alt + Tab que apenas alterna entre janelas ativas."
+  },
+  {
+    "question": "Qual atalho de teclado permite criar uma **Nova Área de Trabalho Virtual** no **Windows**?",
+    "answers": [
+      {
+        "option": "Windows + Alt + D",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Windows + D",
+        "correct": true
+      },
+      {
+        "option": "Windows + Shift + D",
+        "correct": false
+      },
+      {
+        "option": "Windows + N",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Ctrl + Windows + D** cria uma nova área de trabalho virtual, ideal para multitarefas."
+  },
+  {
+    "question": "No **Windows**, para acessar o campo de **Pesquisa** (Search), qual atalho de teclado é utilizado?",
+    "answers": [
+      {
+        "option": "Ctrl + S",
+        "correct": false
+      },
+      {
+        "option": "Windows + S",
+        "correct": true
+      },
+      {
+        "option": "Windows + F",
         "correct": false
       },
       {
@@ -239,197 +327,87 @@
         "correct": false
       }
     ],
-    "reforço": "O atalho **Ctrl + Shift + E** inicia/para o compartilhamento de tela no Teams."
+    "reforço": "O atalho **Windows + S** abre a barra de Pesquisa do Windows."
   },
   {
-    "question": "No **MS PowerPoint**, qual atalho de teclado é utilizado para **Agrupar** objetos selecionados em um slide?",
+    "question": "Qual tecla de função universal é usada no **Windows** para abrir a Ajuda contextual em quase todos os aplicativos?",
     "answers": [
       {
-        "option": "Ctrl + Alt + G",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + G",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + G",
+        "option": "F1",
         "correct": true
       },
-      {
-        "option": "Ctrl + A",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + G** agrupa os objetos. **Ctrl + Shift + G** desagrupa."
-  },
-  {
-    "question": "Em navegadores (**Chrome, Firefox, Internet Explorer**), para abrir o painel de **Downloads** em uma nova guia, qual atalho deve ser utilizado?",
-    "answers": [
-      {
-        "option": "Ctrl + D",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + H",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + J",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + O",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + J** abre o painel ou a página de Downloads."
-  },
-  {
-    "question": "No **MS Excel**, qual atalho é usado para abrir a caixa de diálogo **Formatar Células**?",
-    "answers": [
       {
         "option": "F2",
         "correct": false
       },
       {
-        "option": "Ctrl + F",
+        "option": "F5",
         "correct": false
       },
       {
-        "option": "Ctrl + 1",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Shift + F",
+        "option": "F7",
         "correct": false
       }
     ],
-    "reforço": "O atalho **Ctrl + 1** (o número 1) abre a caixa de diálogo Formatar Células."
+    "reforço": "A tecla **F1** é o atalho padrão do Windows e de muitos aplicativos para abrir a Ajuda."
   },
   {
-    "question": "Ao usar o **Zoom** durante uma conferência, qual atalho de teclado permite **silenciar ou reativar** o seu próprio microfone?",
+    "question": "No **Windows**, se você pressionar a tecla **Windows + ,** (vírgula), o que acontece?",
     "answers": [
       {
-        "option": "Ctrl + Shift + M",
+        "option": "Abre o menu de Emoji.",
         "correct": false
       },
       {
-        "option": "Alt + A",
+        "option": "Exibe o Desktop temporariamente (Peek).",
         "correct": true
       },
       {
-        "option": "Alt + V",
+        "option": "Abre as Configurações.",
         "correct": false
       },
       {
-        "option": "Ctrl + M",
+        "option": "Abre a Visão de Tarefas.",
         "correct": false
       }
     ],
-    "reforço": "O atalho **Alt + A** (para Áudio) é usado no Zoom para silenciar/reativar o microfone."
+    "reforço": "O atalho **Windows + ,** permite 'espiar' a área de trabalho temporariamente, ocultando as janelas enquanto as teclas estão pressionadas."
   },
   {
-    "question": "Qual atalho de teclado no **Windows** permite **bloquear o computador** (ir para a tela de login) rapidamente?",
+    "question": "Qual atalho de teclado, no **Windows**, permite mover-se entre as notificações abertas?",
     "answers": [
       {
-        "option": "Ctrl + F4",
+        "option": "Ctrl + N",
         "correct": false
       },
       {
-        "option": "Windows + Pause/Break",
+        "option": "Windows + N",
         "correct": false
       },
       {
-        "option": "Windows + L",
+        "option": "Windows + V",
+        "correct": false
+      },
+      {
+        "option": "Windows + Shift + V",
         "correct": true
-      },
-      {
-        "option": "Alt + F4",
-        "correct": false
       }
     ],
-    "reforço": "O atalho **Windows + L** bloqueia o computador e retorna à tela de login/bloqueio."
+    "reforço": "O atalho **Windows + Shift + V** permite navegar entre as notificações na área de trabalho."
   },
   {
-    "question": "No **MS Word**, se o usuário pressionar $\text{Ctrl} + \text{E}$, qual alinhamento será aplicado ao parágrafo?",
+    "question": "Para abrir o **Histórico da Área de Transferência** (Clipboard History) no **Windows**, que armazena múltiplos itens copiados, qual atalho é usado?",
     "answers": [
       {
-        "option": "Alinhar à Esquerda",
+        "option": "Ctrl + C duas vezes",
         "correct": false
       },
       {
-        "option": "Centralizar",
-        "correct": true
-      },
-      {
-        "option": "Alinhar à Direita",
+        "option": "Windows + C",
         "correct": false
       },
       {
-        "option": "Justificar",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + E** centraliza o parágrafo. (E de 'Eixo' ou 'Center' em inglês)."
-  },
-  {
-    "question": "Em uma ferramenta de comunicação digital como **WhatsApp Web**, qual atalho permite ao usuário **arquivar a conversa selecionada**?",
-    "answers": [
-      {
-        "option": "Ctrl + Alt + A",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Alt + Shift + E",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Alt + W",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + A",
-        "correct": false
-      }
-    ],
-    "reforço": "A combinação **Ctrl + Alt + Shift + E** é usada para arquivar a conversa no WhatsApp Web."
-  },
-  {
-    "question": "No **MS Excel**, qual atalho é usado para inserir a **hora atual** na célula ativa?",
-    "answers": [
-      {
-        "option": "Ctrl + ;",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + ;",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + :",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Alt + T",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho **Ctrl + Shift + :** (dois pontos) insere a hora atual. **Ctrl + ;** (ponto e vírgula) insere a data atual."
-  },
-  {
-    "question": "Qual atalho de teclado é usado no **Google Meet** (parte do Google Workspace) para **Ativar/Desativar a webcam** durante uma reunião?",
-    "answers": [
-      {
-        "option": "Ctrl + D",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + M",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + E",
+        "option": "Windows + V",
         "correct": true
       },
       {
@@ -437,6 +415,28 @@
         "correct": false
       }
     ],
-    "reforço": "O atalho **Ctrl + E** (para 'Enable/Disable Video' ou 'Emissão de vídeo') é usado para ligar/desligar a câmera no Google Meet."
+    "reforço": "O atalho **Windows + V** abre o histórico de tudo o que foi copiado para a Área de Transferência."
+  },
+  {
+    "question": "Qual atalho de teclado é utilizado para abrir o **Menu Iniciar** no **Windows**?",
+    "answers": [
+      {
+        "option": "Alt + Esc",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Esc",
+        "correct": true
+      },
+      {
+        "option": "Alt + Home",
+        "correct": false
+      },
+      {
+        "option": "Windows + D",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Ctrl + Esc** é uma alternativa para a tecla **Windows** e abre o Menu Iniciar."
   }
 ]

@@ -1,9 +1,9 @@
 [
   {
-    "question": "No sistema operacional **Windows**, qual combinação de teclas permite que o usuário abra o **Gerenciador de Tarefas** diretamente, sem passar pelo Ctrl + Alt + Del?",
+    "question": "No sistema operacional **Windows**, qual atalho permite abrir o **Gerenciador de Tarefas** diretamente?",
     "answers": [
       {
-        "option": "Windows + T",
+        "option": "Ctrl + Alt + Del",
         "correct": false
       },
       {
@@ -15,17 +15,17 @@
         "correct": false
       },
       {
-        "option": "Ctrl + Windows + G",
+        "option": "Windows + Shift + M",
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + Shift + Esc abre o Gerenciador de Tarefas imediatamente no Windows."
+    "reforço": "O atalho **Ctrl + Shift + Esc** abre o Gerenciador de Tarefas imediatamente no Windows, sem passar pela tela de segurança."
   },
   {
-    "question": "Um usuário está trabalhando no **MS Word** e precisa aplicar a formatação **Sublinhado Duplo** ao título selecionado. Qual atalho de teclado realiza essa formatação?",
+    "question": "No **MS Word**, o usuário deseja aplicar a formatação **Sublinhado Duplo** ao texto selecionado. Qual atalho de teclado realiza essa formatação?",
     "answers": [
       {
-        "option": "Ctrl + D",
+        "option": "Ctrl + U",
         "correct": false
       },
       {
@@ -33,7 +33,7 @@
         "correct": true
       },
       {
-        "option": "Ctrl + Shift + U",
+        "option": "Ctrl + Alt + D",
         "correct": false
       },
       {
@@ -41,13 +41,13 @@
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + Shift + D aplica o Sublinhado Duplo no MS Word. Ctrl + S sublinha (simplesmente) e Ctrl + Shift + S aplica estilo."
+    "reforço": "O atalho **Ctrl + Shift + D** aplica o Sublinhado Duplo no MS Word."
   },
   {
-    "question": "No **MS Excel**, um contador precisa aplicar o formato de **Moeda (Contábil)** rapidamente a uma coluna de valores selecionada. Qual atalho de teclado atende a essa necessidade?",
+    "question": "No **MS Excel**, para aplicar o formato de **Moeda (Contábil)** rapidamente a uma coluna de valores selecionada, qual atalho é utilizado?",
     "answers": [
       {
-        "option": "Ctrl + Shift + ;",
+        "option": "Ctrl + Shift + 1 (!)",
         "correct": false
       },
       {
@@ -59,11 +59,11 @@
         "correct": false
       },
       {
-        "option": "Ctrl + 1",
+        "option": "Ctrl + Alt + C",
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + Shift + 4 ($) aplica o formato de moeda. Ctrl + Shift + 5 aplica o formato de porcentagem."
+    "reforço": "O atalho **Ctrl + Shift + 4 ($)** aplica o formato de moeda no MS Excel."
   },
   {
     "question": "Em navegadores como **Google Chrome** ou **Mozilla Firefox**, qual atalho de teclado permite abrir uma **nova janela** no modo de **navegação anônima** ou **privativa**?",
@@ -81,36 +81,36 @@
         "correct": true
       },
       {
-        "option": "Ctrl + H",
+        "option": "Ctrl + W",
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + Shift + N abre a Janela Anônima no Google Chrome e a Janela Privativa no Firefox (Ctrl + Shift + P também funciona no Firefox)."
+    "reforço": "O atalho **Ctrl + Shift + N** abre a janela de navegação privada/anônima."
   },
   {
-    "question": "No **MS PowerPoint**, o usuário precisa agrupar três objetos (texto e imagens) para que se movam como uma única unidade. Qual é o atalho para **Agrupar** os objetos selecionados?",
+    "question": "No **MS PowerPoint**, para inserir um **Novo Slide** na apresentação, qual atalho de teclado é utilizado?",
     "answers": [
       {
-        "option": "Ctrl + G",
+        "option": "Ctrl + N",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + S",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + M",
         "correct": true
       },
       {
-        "option": "Ctrl + A",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + G",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Alt + G",
+        "option": "Ctrl + D",
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + G agrupa os objetos. Ctrl + Shift + G é usado para desagrupar."
+    "reforço": "O atalho **Ctrl + M** (New Slide) insere um novo slide na apresentação."
   },
   {
-    "question": "Um usuário no **MS Word** quer remover o conteúdo selecionado e colocá-lo na Área de Transferência, porém, quer que ele seja **colado apenas como texto**, descartando qualquer formatação original. Qual atalho permite colar apenas o texto?",
+    "question": "Em um editor de texto (como MS Word ou Google Docs), qual atalho de teclado permite **colar o conteúdo da Área de Transferência, descartando toda a formatação** (colar apenas o texto) ?",
     "answers": [
       {
         "option": "Ctrl + V",
@@ -129,17 +129,17 @@
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + Shift + V cola o conteúdo sem formatação (somente texto) em muitos aplicativos do Office e no Google Docs/Slides."
+    "reforço": "O atalho **Ctrl + Shift + V** cola o conteúdo sem formatação (somente texto) em muitos aplicativos de produtividade."
   },
   {
-    "question": "Para realizar uma **captura de tela seletiva** (recorte) no **Windows 10/11**, qual atalho permite abrir a Ferramenta de Recorte diretamente?",
+    "question": "No **Windows**, qual atalho é usado para ativar o modo de **recorte de tela seletivo** (Ferramenta de Recorte)?",
     "answers": [
       {
         "option": "PrtScn",
         "correct": false
       },
       {
-        "option": "Windows + C",
+        "option": "Windows + PrintScreen",
         "correct": false
       },
       {
@@ -151,211 +151,277 @@
         "correct": false
       }
     ],
-    "reforço": "O atalho Windows + Shift + S ativa o modo de recorte do Windows, permitindo selecionar e copiar parte da tela."
+    "reforço": "O atalho **Windows + Shift + S** abre a Ferramenta de Recorte do Windows, permitindo selecionar e copiar parte da tela."
   },
   {
-    "question": "No **MS Excel**, se um usuário selecionar um conjunto de colunas e pressionar **Ctrl + 0** (zero), qual ação será realizada?",
+    "question": "No **MS Excel**, se um usuário pressionar **Ctrl + 9**, qual ação será realizada?",
     "answers": [
       {
         "option": "Ocultar as linhas selecionadas.",
-        "correct": false
+        "correct": true
       },
       {
         "option": "Ocultar as colunas selecionadas.",
-        "correct": true
-      },
-      {
-        "option": "Retornar ao zoom 100%.",
         "correct": false
       },
       {
-        "option": "Inserir uma nova coluna à esquerda.",
-        "correct": false
-      }
-    ],
-    "reforço": "No Excel, Ctrl + 0 oculta colunas, enquanto Ctrl + 9 oculta linhas."
-  },
-  {
-    "question": "No **MS-DOS** (ou Prompt de Comando), qual comando é utilizado para **limpar toda a tela** e retornar o cursor ao topo?",
-    "answers": [
-      {
-        "option": "DIR",
+        "option": "Inserir a hora atual.",
         "correct": false
       },
       {
-        "option": "CLS",
-        "correct": true
-      },
-      {
-        "option": "EXIT",
-        "correct": false
-      },
-      {
-        "option": "DEL",
+        "option": "Exibir a guia Desenvolvedor.",
         "correct": false
       }
     ],
-    "reforço": "O comando CLS (Clear Screen) limpa a tela do Prompt de Comando."
+    "reforço": "No Excel, **Ctrl + 9** oculta as linhas selecionadas. **Ctrl + 0** oculta as colunas."
   },
   {
-    "question": "Em um navegador (**Google Chrome, Firefox**), se o usuário precisa focar rapidamente na **barra de endereço (URL)** para digitar um novo endereço ou termo de pesquisa, qual atalho de teclado ele pode usar?",
+    "question": "Em navegadores (**Google Chrome, Firefox**), para fechar a **guia atual** que está em foco, qual atalho de teclado deve ser utilizado?",
     "answers": [
       {
-        "option": "Ctrl + F",
+        "option": "Alt + F4",
         "correct": false
       },
+      {
+        "option": "Ctrl + F4",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + W",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Q",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Ctrl + W** fecha a guia ativa (o aplicativo só fecha se for a última guia)."
+  },
+  {
+    "question": "No **MS Word**, qual atalho permite aplicar ou remover o formato **TODAS AS MAIÚSCULAS** ao texto selecionado?",
+    "answers": [
       {
         "option": "Ctrl + A",
         "correct": false
       },
       {
-        "option": "Ctrl + L",
+        "option": "Ctrl + Shift + K",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + A",
         "correct": true
       },
       {
-        "option": "Ctrl + T",
+        "option": "Ctrl + Alt + U",
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + L foca na barra de endereço/localização. Alt + D ou F6 também funcionam."
+    "reforço": "O atalho **Ctrl + Shift + A** alterna o texto selecionado para TODAS AS MAIÚSCULAS."
   },
   {
-    "question": "Ao usar o **Microsoft Teams** durante uma reunião, qual atalho permite que o usuário **levante ou abaixe sua mão** virtualmente para indicar que deseja falar?",
+    "question": "Ao usar o **Microsoft Teams** durante uma reunião, qual atalho é utilizado para **compartilhar ou interromper o compartilhamento** da sua tela?",
     "answers": [
+      {
+        "option": "Ctrl + Shift + M",
+        "correct": false
+      },
       {
         "option": "Ctrl + Shift + E",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + K",
         "correct": true
       },
       {
-        "option": "Ctrl + Alt + M",
+        "option": "Ctrl + Shift + D",
         "correct": false
       },
       {
-        "option": "Alt + Y",
+        "option": "Alt + S",
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + Shift + K é a combinação para levantar/abaixar a mão no Teams. (Alt + Y é o atalho usado no Zoom)."
+    "reforço": "O atalho **Ctrl + Shift + E** inicia/para o compartilhamento de tela no Teams."
   },
   {
-    "question": "No **MS PowerPoint**, para iniciar a apresentação de slides a partir do **slide atual**, em vez do começo, qual atalho de teclado é utilizado?",
+    "question": "No **MS PowerPoint**, qual atalho de teclado é utilizado para **Agrupar** objetos selecionados em um slide?",
     "answers": [
       {
-        "option": "F5",
+        "option": "Ctrl + Alt + G",
         "correct": false
       },
       {
-        "option": "Ctrl + F5",
+        "option": "Ctrl + Shift + G",
         "correct": false
       },
       {
-        "option": "Shift + F5",
+        "option": "Ctrl + G",
         "correct": true
       },
       {
-        "option": "Alt + F5",
+        "option": "Ctrl + A",
         "correct": false
       }
     ],
-    "reforço": "A combinação Shift + F5 inicia a apresentação a partir do slide que está selecionado ou em visualização."
+    "reforço": "O atalho **Ctrl + G** agrupa os objetos. **Ctrl + Shift + G** desagrupa."
   },
   {
-    "question": "No contexto de **segurança da informação** e navegadores web, qual atalho permite ao usuário abrir o painel para **limpar dados de navegação** (histórico, cache, cookies)?",
+    "question": "Em navegadores (**Chrome, Firefox, Internet Explorer**), para abrir o painel de **Downloads** em uma nova guia, qual atalho deve ser utilizado?",
     "answers": [
       {
-        "option": "Ctrl + Shift + T",
+        "option": "Ctrl + D",
         "correct": false
-      },
-      {
-        "option": "Ctrl + Shift + Del",
-        "correct": true
       },
       {
         "option": "Ctrl + H",
         "correct": false
       },
       {
-        "option": "F11",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho Ctrl + Shift + Del abre a caixa de diálogo 'Limpar dados de navegação' no Chrome, Firefox e Edge."
-  },
-  {
-    "question": "Ao usar o Gmail (parte do **Google Workspace**), se as teclas de atalho estiverem ativadas, qual tecla deve ser pressionada para **compor** uma nova mensagem de e-mail?",
-    "answers": [
-      {
-        "option": "a",
-        "correct": false
-      },
-      {
-        "option": "r",
-        "correct": false
-      },
-      {
-        "option": "c",
+        "option": "Ctrl + J",
         "correct": true
       },
       {
-        "option": "o",
+        "option": "Ctrl + O",
         "correct": false
       }
     ],
-    "reforço": "No Gmail, a tecla c (de 'compose') abre o painel para escrever um novo e-mail. r responde, e a responde a todos."
+    "reforço": "O atalho **Ctrl + J** abre o painel ou a página de Downloads."
   },
   {
-    "question": "Um usuário está no diretório C:\\Programas no Prompt de Comando (simulando **MS-DOS**) e precisa **voltar para a raiz** do disco C:. Qual comando ele deve usar?",
+    "question": "No **MS Excel**, qual atalho é usado para abrir a caixa de diálogo **Formatar Células**?",
     "answers": [
       {
-        "option": "CD ..",
+        "option": "F2",
         "correct": false
       },
       {
-        "option": "CD \\",
+        "option": "Ctrl + F",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + 1",
         "correct": true
       },
       {
-        "option": "CD ..\\..",
-        "correct": false
-      },
-      {
-        "option": "CD",
+        "option": "Ctrl + Shift + F",
         "correct": false
       }
     ],
-    "reforço": "O comando CD \\ (Change Directory para a barra invertida) navega diretamente para o diretório raiz do drive atual."
+    "reforço": "O atalho **Ctrl + 1** (o número 1) abre a caixa de diálogo Formatar Células."
   },
   {
-    "question": "No **MS Word**, o usuário deseja que o texto selecionado se torne **todo em maiúsculas** (TODAS AS MAIÚSCULAS). Qual atalho de teclado realiza essa mudança de caixa de caracteres?",
+    "question": "Ao usar o **Zoom** durante uma conferência, qual atalho de teclado permite **silenciar ou reativar** o seu próprio microfone?",
     "answers": [
       {
-        "option": "Ctrl + Shift + A",
+        "option": "Ctrl + Shift + M",
+        "correct": false
+      },
+      {
+        "option": "Alt + A",
         "correct": true
       },
+      {
+        "option": "Alt + V",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + M",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Alt + A** (para Áudio) é usado no Zoom para silenciar/reativar o microfone."
+  },
+  {
+    "question": "Qual atalho de teclado no **Windows** permite **bloquear o computador** (ir para a tela de login) rapidamente?",
+    "answers": [
+      {
+        "option": "Ctrl + F4",
+        "correct": false
+      },
+      {
+        "option": "Windows + Pause/Break",
+        "correct": false
+      },
+      {
+        "option": "Windows + L",
+        "correct": true
+      },
+      {
+        "option": "Alt + F4",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Windows + L** bloqueia o computador e retorna à tela de login/bloqueio."
+  },
+  {
+    "question": "No **MS Word**, se o usuário pressionar $\text{Ctrl} + \text{E}$, qual alinhamento será aplicado ao parágrafo?",
+    "answers": [
+      {
+        "option": "Alinhar à Esquerda",
+        "correct": false
+      },
+      {
+        "option": "Centralizar",
+        "correct": true
+      },
+      {
+        "option": "Alinhar à Direita",
+        "correct": false
+      },
+      {
+        "option": "Justificar",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Ctrl + E** centraliza o parágrafo. (E de 'Eixo' ou 'Center' em inglês)."
+  },
+  {
+    "question": "Em uma ferramenta de comunicação digital como **WhatsApp Web**, qual atalho permite ao usuário **arquivar a conversa selecionada**?",
+    "answers": [
       {
         "option": "Ctrl + Alt + A",
         "correct": false
       },
       {
-        "option": "Shift + F3",
+        "option": "Ctrl + Alt + Shift + E",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Alt + W",
         "correct": false
       },
       {
-        "option": "Ctrl + A",
+        "option": "Ctrl + Shift + A",
         "correct": false
       }
     ],
-    "reforço": "O atalho Ctrl + Shift + A alterna o texto para TODAS AS MAIÚSCULAS. A tecla Shift + F3 alterna entre Minúsculas, Primeira Maiúscula e MAIÚSCULAS."
+    "reforço": "A combinação **Ctrl + Alt + Shift + E** é usada para arquivar a conversa no WhatsApp Web."
   },
   {
-    "question": "Qual atalho de teclado, no **Windows**, permite **minimizar todas as janelas** abertas e exibir a Área de Trabalho?",
+    "question": "No **MS Excel**, qual atalho é usado para inserir a **hora atual** na célula ativa?",
     "answers": [
       {
-        "option": "Alt + D",
+        "option": "Ctrl + ;",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + ;",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + :",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Alt + T",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho **Ctrl + Shift + :** (dois pontos) insere a hora atual. **Ctrl + ;** (ponto e vírgula) insere a data atual."
+  },
+  {
+    "question": "Qual atalho de teclado é usado no **Google Meet** (parte do Google Workspace) para **Ativar/Desativar a webcam** durante uma reunião?",
+    "answers": [
+      {
+        "option": "Ctrl + D",
         "correct": false
       },
       {
@@ -363,80 +429,14 @@
         "correct": false
       },
       {
-        "option": "Windows + D",
+        "option": "Ctrl + E",
         "correct": true
       },
       {
-        "option": "Windows + M",
+        "option": "Ctrl + V",
         "correct": false
       }
     ],
-    "reforço": "O atalho Windows + D exibe ou oculta a Área de Trabalho (ou seja, minimiza todas as janelas ativas)."
-  },
-  {
-    "question": "No **MS Excel**, se um usuário selecionar um conjunto de células e pressionar **Ctrl + 1**, o que é exibido?",
-    "answers": [
-      {
-        "option": "A caixa de diálogo Formatar Células.",
-        "correct": true
-      },
-      {
-        "option": "A caixa de diálogo Inserir Função.",
-        "correct": false
-      },
-      {
-        "option": "O painel de tarefas Localizar e Substituir.",
-        "correct": false
-      },
-      {
-        "option": "O Gerenciador de Nomes.",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho Ctrl + 1 abre a caixa de diálogo Formatar Células, essencial para alterar formatos de número, alinhamento e fonte."
-  },
-  {
-    "question": "Ao utilizar o **Zoom** durante uma conferência, um usuário precisa **iniciar ou parar o compartilhamento de sua tela**. Qual é o atalho de teclado padrão para essa ação?",
-    "answers": [
-      {
-        "option": "Alt + V",
-        "correct": false
-      },
-      {
-        "option": "Alt + R",
-        "correct": false
-      },
-      {
-        "option": "Alt + S",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Shift + M",
-        "correct": false
-      }
-    ],
-    "reforço": "O atalho Alt + S inicia/para o compartilhamento de tela no Zoom."
-  },
-  {
-    "question": "Em uma ferramenta de comunicação digital como **WhatsApp Web**, qual atalho permite ao usuário **marcar a conversa selecionada como 'Não Lida'**?",
-    "answers": [
-      {
-        "option": "Ctrl + Alt + Shift + R",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Alt + Shift + U",
-        "correct": true
-      },
-      {
-        "option": "Ctrl + Alt + N",
-        "correct": false
-      },
-      {
-        "option": "Ctrl + Enter",
-        "correct": false
-      }
-    ],
-    "reforço": "A combinação Ctrl + Alt + Shift + U é usada para marcar a conversa como não lida no WhatsApp Web."
+    "reforço": "O atalho **Ctrl + E** (para 'Enable/Disable Video' ou 'Emissão de vídeo') é usado para ligar/desligar a câmera no Google Meet."
   }
 ]

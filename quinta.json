@@ -1,210 +1,442 @@
 [
-{
-    "question": "Comando do Sistema Operacional da Microsoft, MS-DOS, que exibe a lista de arquivos e subdiretórios de um diretório. Trata-se de:",
-    "answers": [
-        { "option": "FC", "correct": false },
-        { "option": "CD", "correct": false },
-        { "option": "CLS", "correct": false },
-        { "option": "DIR", "correct": true }
-    ],
-    "reforço": "O comando 'DIR' no MS-DOS exibe a lista de arquivos e subdiretórios do diretório atual."
-},
-{
-    "question": "Qual comando, do MS-DOS, é uma ferramenta que fornece informações sobre os drivers de hardware instalados no computador?",
-    "answers": [
-        { "option": "drivequest.", "correct": false },
-        { "option": "driveinfo.", "correct": false },
-        { "option": "drivequery.", "correct": true },
-        { "option": "driveview.", "correct": false },
-        { "option": "driveload.", "correct": false }
-    ],
-    "reforço": "O comando 'drivequery' é utilizado para exibir informações sobre os drivers de hardware instalados no computador."
-},
-{
-    "question": "Comando utilizado no MSDOS que procura uma cadeia de caracteres numa lista de arquivos. Trata-se do comando:",
-    "answers": [
-        { "option": "FIND", "correct": true },
-        { "option": "ECHO", "correct": false },
-        { "option": "MORE", "correct": false },
-        { "option": "LABEL", "correct": false }
-    ],
-    "reforço": "O comando 'FIND' no MS-DOS é utilizado para procurar uma cadeia de caracteres em arquivos."
-},
-{
-    "question": "Na linha de comando do Sistema Operacional MS-DOS, o comando ATTRIB, além de ser usado para mostrar os atributos dos arquivos e diretórios (somente leitura, arquivo do sistema, arquivo morto e oculto), permite alterá-los. Sua sintaxe é: [ATTRIB <opções> <unidade> <caminho> <arquivo>]. Assinale a opção de atributo de arquivo oculto.",
-    "answers": [
-        { "option": "A", "correct": false },
-        { "option": "H", "correct": true },
-        { "option": "R", "correct": false },
-        { "option": "S", "correct": false }
-    ],
-    "reforço": "No MS-DOS, o atributo 'H' indica que o arquivo é oculto (Hidden)."
-},
-{
-    "question": "Na linha de comando do Sistema Operacional MS-DOS, o comando _____ é usado para listar arquivos e diretórios. Assinale a alternativa que completa corretamente a afirmativa anterior.",
-    "answers": [
-        { "option": "Dir", "correct": true },
-        { "option": "Ver", "correct": false },
-        { "option": "Tree", "correct": false },
-        { "option": "Mode", "correct": false }
-    ],
-    "reforço": "O comando 'Dir' no MS-DOS é utilizado para listar arquivos e diretórios do diretório atual."
-},
-{
-    "question": "O [dir] é um comando usado no MS-DOS para listar o conteúdo de diretórios/pastas. O seu uso puro e simples lista, de maneira geral, os conteúdos de um determinado diretório/pasta. Entretanto, há um parâmetro que faz com que a visualização seja feita na horizontal (ou formato de lista amplo).<br><br>Trata-se do parâmetro:",
-    "answers": [
-        { "option": "/p", "correct": false },
-        { "option": "/s", "correct": false },
-        { "option": "/w", "correct": true },
-        { "option": "/x", "correct": false }
-    ],
-    "reforço": "O parâmetro '/w' do comando 'dir' exibe os arquivos em formato de lista ampla (horizontal) no MS-DOS."
-},
-{
-    "question": "Considerando o seguinte comando utilizado no console de comandos do MS-DOS, marque a alternativa que indica o seu resultado.<br><br>C:\\> DIR /?",
-    "answers": [
-        { "option": "Listar todos os diretórios que não se iniciam com o caractere?", "correct": false },
-        { "option": "Listar todos os diretórios que se iniciam com o caractere?", "correct": false },
-        { "option": "Retornar uma página de ajuda do comando DIR.", "correct": true },
-        { "option": "Criar um diretório chamado?", "correct": false }
-    ],
-    "reforço": "O comando 'DIR /?' exibe a página de ajuda do comando DIR, mostrando suas opções e parâmetros disponíveis."
-},
-{
-    "question": "Após configurar as opções essenciais do Setup, o micro deverá ser capaz de inicializar normalmente e de dar o boot através de um disquete. Como o disco rígido ainda não possui nenhum sistema operacional, é necessário um disquete de boot para inicializar a máquina ou inicializar o micro através do CD de instalação do Windows – se o micro permitir o boot através do CD-ROM.<br><br>Após o boot, ao tentar acessar a unidade C, será apresentada uma mensagem de erro, como se não houvesse disco rígido nenhum instalado na máquina, pois o disco ainda precisa ser formatado para ser reconhecido e utilizado pelo sistema operacional. Existem vários programas que realizam esta tarefa. Convém utilizar o Fdisk que faz parte do disco de boot do Windows. Basta carregá-lo com o comando ____________.<br><br>O comando que completa corretamente a lacuna do texto é:",
-    "answers": [
-        { "option": "C:\\FDISK", "correct": false },
-        { "option": "G:\\FDISK", "correct": false },
-        { "option": ":\\FDISK", "correct": false },
-        { "option": "A:\\FDISK", "correct": true }
-    ],
-    "reforço": "O comando 'A:\\FDISK' executa o programa FDISK a partir do disquete de boot, permitindo a criação e gerenciamento de partições no disco rígido."
-},
-{
-    "question": "Sendo necessário executar o Format para formatar logicamente o disco rígido antes de poder utilizá-lo. A sintaxe do comando Format é \"Format\" seguido de um espaço e da letra da unidade a ser formatada. Para formatar a unidade C:, por exemplo, basta usar o comando \"_________\"<br><br>Qual o comando correto de acordo com o texto?",
-    "answers": [
-        { "option": "Format A:", "correct": false },
-        { "option": "Format G:", "correct": false },
-        { "option": "Format C", "correct": false },
-        { "option": "Format C:", "correct": true }
-    ],
-    "reforço": "O comando correto para formatar a unidade C: é 'Format C:'."
-},
-{
-    "question": "Para realizar o scandisk pelo prompt de comando, clica-se com o botão direito no logotipo do Windows e seleciona-se a opção Prompt de Comando (administrador). Digita-se o comando CHKDSK C: e pressiona-se a tecla Enter. Se, além de examinar o disco, o usuário quiser corrigir erros, este executa qual comando?",
-    "answers": [
-        { "option": "CHKDSK C: F", "correct": false },
-        { "option": "CHKDSK C: /F", "correct": true },
-        { "option": "CHKDSK : F", "correct": false },
-        { "option": "CHKDSK C:", "correct": false }
-    ],
-    "reforço": "O parâmetro '/F' no comando 'CHKDSK' faz com que o utilitário corrija erros encontrados no disco."
-},
-{
-    "question": "No MS – DOS, os caracteres Globais, também chamados caracteres curingas, são utilizados quando necessitamos nos referir a vários arquivos ao mesmo tempo. Existem dois caracteres globais:",
-    "answers": [
-        { "option": "A vírgula e a interrogação.", "correct": false },
-        { "option": "A interrogação e o ponto.", "correct": false },
-        { "option": "O asterisco e a interrogação.", "correct": true },
-        { "option": "O ponto e o asterisco.", "correct": false }
-    ],
-    "reforço": "No MS-DOS, os caracteres globais são o asterisco (*) e a interrogação (?), usados para representar múltiplos arquivos ou padrões de nomes."
-},
-{
-    "question": "Considerando o sistema Microsoft Windows 7, qual comando realiza a atribuição de pasta oculta, para a pasta já criada com o nome de oculto localizada em C: ?",
-    "answers": [
-        { "option": "chdir C:\\oculto", "correct": false },
-        { "option": "hide -H C:\\oculto", "correct": false },
-        { "option": "attrib +H C:\\oculto", "correct": true },
-        { "option": "Mkdir +H C:\\oculto", "correct": false },
-        { "option": "Nenhuma das alternativas.", "correct": false }
-    ],
-    "reforço": "O comando 'attrib +H C:\\oculto' atribui o atributo de pasta oculta à pasta 'oculto' localizada em C: no Windows."
-},
-{
-    "question": "Um arquivo em lote, elaborado para o sistema operacional MS-DOS, pode utilizar diversos comandos. O comando que faz com que o prompt fique oculto durante a execução de um arquivo em lote é o",
-    "answers": [
-        { "option": "@ECHO.", "correct": true },
-        { "option": "PAUSE.", "correct": false },
-        { "option": "PROMPT OFF.", "correct": false },
-        { "option": "REM.", "correct": false },
-        { "option": "SET OFF.", "correct": false }
-    ],
-    "reforço": "O comando '@ECHO.' ou '@ECHO OFF' faz com que os comandos do arquivo em lote não sejam exibidos durante a execução, ocultando o prompt."
-},
-{
-    "question": "Suzana liga para o Suporte Técnico da empresa em que trabalha e informa que não está conseguindo conectar-se aos arquivos de rede, e-mail, internet e demais serviços. O técnico se apresenta para verificar se a estação de trabalho está conectada e, após procedimentos realizados para correção, finaliza digitando um comando no Prompt de Comando (cmd) para verificar se a máquina voltou a conectar-se ao servidor de rede e ao domínio, exibindo as informações de endereço físico e demais configurações de rede do computador. O comando digitado foi",
-    "answers": [
-        { "option": "ipconfig /flushdns", "correct": false },
-        { "option": "cliconfig", "correct": false },
-        { "option": "ping 255.255.0.0", "correct": false },
-        { "option": "ipconfig /all", "correct": true }
-    ],
-    "reforço": "O comando 'ipconfig /all' exibe todas as configurações de rede do computador, incluindo endereço físico (MAC), IP, DNS e outras informações importantes."
-},
-{
-    "question": "O comando format do MS-DOS (MicroSoft Disk Operating System) é um comando utilizado para formatação de dispositivos, seja um HD, Pen-drive, cartão de memória etc. Ainda hoje é possível utilizar esse comando, via prompt de comando dos Sistemas Windows. Assim como diversos outros comandos, o format também pode ser usado com algumas opções. Uma dessas opções é o “/U”. Assinale a alternativa que apresenta a descrição dessa opção.",
-    "answers": [
-        { "option": "Executa uma formatação rápida.", "correct": false },
-        { "option": "Formata rapidamente o disco da unidade.", "correct": false },
-        { "option": "Formata o disco independente da condição.", "correct": true },
-        { "option": "Formata o dispositivo, mas força uma desmontagem primeiro, se necessário.", "correct": false }
-    ],
-    "reforço": "A opção '/U' do comando 'format' realiza uma formatação incondicional, ou seja, formata o disco independente da condição anterior."
-},
   {
-    "question": "Para fechar uma janela do Prompt do MS-DOS aberta no Windows 98 o usuário deve digitar na linha de comando do prompt o comando:",
+    "question": "No sistema operacional **Windows**, qual combinação de teclas permite que o usuário abra o **Gerenciador de Tarefas** diretamente, sem passar pelo Ctrl + Alt + Del?",
     "answers": [
-      { "option": "A bye", "correct": false },
-      { "option": "B exit", "correct": true },
-      { "option": "C halt", "correct": false },
-      { "option": "D kill", "correct": false },
-      { "option": "E quit", "correct": false }
+      {
+        "option": "Windows + T",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + Esc",
+        "correct": true
+      },
+      {
+        "option": "Alt + F4",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Windows + G",
+        "correct": false
+      }
     ],
-    "reforço": "O comando 'exit' encerra a sessão atual do prompt de comando."
+    "reforço": "O atalho Ctrl + Shift + Esc abre o Gerenciador de Tarefas imediatamente no Windows."
   },
   {
-    "question": "Os comandos MD, CD e RD no MS-DOS têm, respectivamente, as seguintes funções:",
+    "question": "Um usuário está trabalhando no **MS Word** e precisa aplicar a formatação **Sublinhado Duplo** ao título selecionado. Qual atalho de teclado realiza essa formatação?",
     "answers": [
-      { "option": "A mudar o diretório atual, criar diretório e deletar diretório.", "correct": false },
-      { "option": "B deletar diretório, criar diretório e mudar o diretório atual.", "correct": false },
-      { "option": "C criar diretório, mudar o diretório atual e deletar diretório.", "correct": true },
-      { "option": "D criar diretório, deletar diretório e mudar o diretório atual.", "correct": false },
-      { "option": "E mudar o diretório atual, deletar diretório e criar diretório.", "correct": false }
+      {
+        "option": "Ctrl + D",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + D",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Shift + U",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + S",
+        "correct": false
+      }
     ],
-    "reforço": "MD cria diretórios, CD muda o diretório atual e RD remove diretórios."
+    "reforço": "O atalho Ctrl + Shift + D aplica o Sublinhado Duplo no MS Word. Ctrl + S sublinha (simplesmente) e Ctrl + Shift + S aplica estilo."
   },
   {
-    "question": "Assinale a opção que apresenta apenas comandos MS-DOS.",
+    "question": "No **MS Excel**, um contador precisa aplicar o formato de **Moeda (Contábil)** rapidamente a uma coluna de valores selecionada. Qual atalho de teclado atende a essa necessidade?",
     "answers": [
-      { "option": "A PATH, MOVE, PUT e CLEAR", "correct": false },
-      { "option": "B LESS, EQUAL, COMP e SUM", "correct": false },
-      { "option": "C READ, INSERT, DIR e MORE", "correct": false },
-      { "option": "D CHMOD,RM, MODE e LS", "correct": false },
-      { "option": "E ATTRIB, CLS, TYPE e FDISK", "correct": true }
+      {
+        "option": "Ctrl + Shift + ;",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + 4 ($)",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Shift + 5 (%)",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + 1",
+        "correct": false
+      }
     ],
-    "reforço": "Os comandos ATTRIB, CLS, TYPE e FDISK são nativos do MS-DOS."
+    "reforço": "O atalho Ctrl + Shift + 4 ($) aplica o formato de moeda. Ctrl + Shift + 5 aplica o formato de porcentagem."
   },
   {
-    "question": "Sobre o MS-DOS, assinale a alternativa correta:",
+    "question": "Em navegadores como **Google Chrome** ou **Mozilla Firefox**, qual atalho de teclado permite abrir uma **nova janela** no modo de **navegação anônima** ou **privativa**?",
     "answers": [
-      { "option": "A O comando “Deltree” serve para excluir uma pasta com todos os arquivos e subpastas dentro da pasta especificada. A opção /y faz com que a operação seja executada sem o pedido de confirmação.", "correct": true },
-      { "option": "B O MS-DOS deixou de ser necessário a partir do surgimento do Windows 3.1.", "correct": false },
-      { "option": "C O comando “format a: /u /s” serve para formatar um disquete. A opção /u é para formatação rápida e a opção /s é para copiar os arquivos do sistema operacional para o disquete.", "correct": false },
-      { "option": "D A linha de comando “Attrib /r /h /s data.txt” serve para alterar os atributos do arquivo data.txt. As opções /r /h e /s definem os atributos do arquivo como somente de leitura, oculto e de sistema, respectivamente.", "correct": false },
-      { "option": "E Os comandos CHKDSK, MEM e DOSKEY, servem respectivamente para: verificar um disco, exibir a quantidade de memória do sistema e por último, configurar o teclado.", "correct": false }
+      {
+        "option": "Ctrl + N",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + T",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + N",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + H",
+        "correct": false
+      }
     ],
-    "reforço": "A alternativa A está correta: DELTREE /y exclui uma pasta e todo o seu conteúdo sem pedir confirmação."
+    "reforço": "O atalho Ctrl + Shift + N abre a Janela Anônima no Google Chrome e a Janela Privativa no Firefox (Ctrl + Shift + P também funciona no Firefox)."
   },
   {
-    "question": "No sistema operacional MS-DOS, para retornar ao diretório raiz, utiliza-se o comando:",
+    "question": "No **MS PowerPoint**, o usuário precisa agrupar três objetos (texto e imagens) para que se movam como uma única unidade. Qual é o atalho para **Agrupar** os objetos selecionados?",
     "answers": [
-      { "option": "A MD", "correct": false },
-      { "option": "B CD\\", "correct": true },
-      { "option": "C EXIT", "correct": false },
-      { "option": "D EDIT", "correct": false },
-      { "option": "E DIR/P", "correct": false }
+      {
+        "option": "Ctrl + G",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + A",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + G",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Alt + G",
+        "correct": false
+      }
     ],
-    "reforço": "O comando 'CD\\' retorna diretamente ao diretório raiz da unidade atual."
+    "reforço": "O atalho Ctrl + G agrupa os objetos. Ctrl + Shift + G é usado para desagrupar."
+  },
+  {
+    "question": "Um usuário no **MS Word** quer remover o conteúdo selecionado e colocá-lo na Área de Transferência, porém, quer que ele seja **colado apenas como texto**, descartando qualquer formatação original. Qual atalho permite colar apenas o texto?",
+    "answers": [
+      {
+        "option": "Ctrl + V",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Alt + V",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + V",
+        "correct": true
+      },
+      {
+        "option": "Alt + V",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Ctrl + Shift + V cola o conteúdo sem formatação (somente texto) em muitos aplicativos do Office e no Google Docs/Slides."
+  },
+  {
+    "question": "Para realizar uma **captura de tela seletiva** (recorte) no **Windows 10/11**, qual atalho permite abrir a Ferramenta de Recorte diretamente?",
+    "answers": [
+      {
+        "option": "PrtScn",
+        "correct": false
+      },
+      {
+        "option": "Windows + C",
+        "correct": false
+      },
+      {
+        "option": "Windows + Shift + S",
+        "correct": true
+      },
+      {
+        "option": "Alt + PrtScn",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Windows + Shift + S ativa o modo de recorte do Windows, permitindo selecionar e copiar parte da tela."
+  },
+  {
+    "question": "No **MS Excel**, se um usuário selecionar um conjunto de colunas e pressionar **Ctrl + 0** (zero), qual ação será realizada?",
+    "answers": [
+      {
+        "option": "Ocultar as linhas selecionadas.",
+        "correct": false
+      },
+      {
+        "option": "Ocultar as colunas selecionadas.",
+        "correct": true
+      },
+      {
+        "option": "Retornar ao zoom 100%.",
+        "correct": false
+      },
+      {
+        "option": "Inserir uma nova coluna à esquerda.",
+        "correct": false
+      }
+    ],
+    "reforço": "No Excel, Ctrl + 0 oculta colunas, enquanto Ctrl + 9 oculta linhas."
+  },
+  {
+    "question": "No **MS-DOS** (ou Prompt de Comando), qual comando é utilizado para **limpar toda a tela** e retornar o cursor ao topo?",
+    "answers": [
+      {
+        "option": "DIR",
+        "correct": false
+      },
+      {
+        "option": "CLS",
+        "correct": true
+      },
+      {
+        "option": "EXIT",
+        "correct": false
+      },
+      {
+        "option": "DEL",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando CLS (Clear Screen) limpa a tela do Prompt de Comando."
+  },
+  {
+    "question": "Em um navegador (**Google Chrome, Firefox**), se o usuário precisa focar rapidamente na **barra de endereço (URL)** para digitar um novo endereço ou termo de pesquisa, qual atalho de teclado ele pode usar?",
+    "answers": [
+      {
+        "option": "Ctrl + F",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + A",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + L",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + T",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Ctrl + L foca na barra de endereço/localização. Alt + D ou F6 também funcionam."
+  },
+  {
+    "question": "Ao usar o **Microsoft Teams** durante uma reunião, qual atalho permite que o usuário **levante ou abaixe sua mão** virtualmente para indicar que deseja falar?",
+    "answers": [
+      {
+        "option": "Ctrl + Shift + E",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + K",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Alt + M",
+        "correct": false
+      },
+      {
+        "option": "Alt + Y",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Ctrl + Shift + K é a combinação para levantar/abaixar a mão no Teams. (Alt + Y é o atalho usado no Zoom)."
+  },
+  {
+    "question": "No **MS PowerPoint**, para iniciar a apresentação de slides a partir do **slide atual**, em vez do começo, qual atalho de teclado é utilizado?",
+    "answers": [
+      {
+        "option": "F5",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + F5",
+        "correct": false
+      },
+      {
+        "option": "Shift + F5",
+        "correct": true
+      },
+      {
+        "option": "Alt + F5",
+        "correct": false
+      }
+    ],
+    "reforço": "A combinação Shift + F5 inicia a apresentação a partir do slide que está selecionado ou em visualização."
+  },
+  {
+    "question": "No contexto de **segurança da informação** e navegadores web, qual atalho permite ao usuário abrir o painel para **limpar dados de navegação** (histórico, cache, cookies)?",
+    "answers": [
+      {
+        "option": "Ctrl + Shift + T",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Shift + Del",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + H",
+        "correct": false
+      },
+      {
+        "option": "F11",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Ctrl + Shift + Del abre a caixa de diálogo 'Limpar dados de navegação' no Chrome, Firefox e Edge."
+  },
+  {
+    "question": "Ao usar o Gmail (parte do **Google Workspace**), se as teclas de atalho estiverem ativadas, qual tecla deve ser pressionada para **compor** uma nova mensagem de e-mail?",
+    "answers": [
+      {
+        "option": "a",
+        "correct": false
+      },
+      {
+        "option": "r",
+        "correct": false
+      },
+      {
+        "option": "c",
+        "correct": true
+      },
+      {
+        "option": "o",
+        "correct": false
+      }
+    ],
+    "reforço": "No Gmail, a tecla c (de 'compose') abre o painel para escrever um novo e-mail. r responde, e a responde a todos."
+  },
+  {
+    "question": "Um usuário está no diretório C:\\Programas no Prompt de Comando (simulando **MS-DOS**) e precisa **voltar para a raiz** do disco C:. Qual comando ele deve usar?",
+    "answers": [
+      {
+        "option": "CD ..",
+        "correct": false
+      },
+      {
+        "option": "CD \\",
+        "correct": true
+      },
+      {
+        "option": "CD ..\\..",
+        "correct": false
+      },
+      {
+        "option": "CD",
+        "correct": false
+      }
+    ],
+    "reforço": "O comando CD \\ (Change Directory para a barra invertida) navega diretamente para o diretório raiz do drive atual."
+  },
+  {
+    "question": "No **MS Word**, o usuário deseja que o texto selecionado se torne **todo em maiúsculas** (TODAS AS MAIÚSCULAS). Qual atalho de teclado realiza essa mudança de caixa de caracteres?",
+    "answers": [
+      {
+        "option": "Ctrl + Shift + A",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Alt + A",
+        "correct": false
+      },
+      {
+        "option": "Shift + F3",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + A",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Ctrl + Shift + A alterna o texto para TODAS AS MAIÚSCULAS. A tecla Shift + F3 alterna entre Minúsculas, Primeira Maiúscula e MAIÚSCULAS."
+  },
+  {
+    "question": "Qual atalho de teclado, no **Windows**, permite **minimizar todas as janelas** abertas e exibir a Área de Trabalho?",
+    "answers": [
+      {
+        "option": "Alt + D",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + M",
+        "correct": false
+      },
+      {
+        "option": "Windows + D",
+        "correct": true
+      },
+      {
+        "option": "Windows + M",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Windows + D exibe ou oculta a Área de Trabalho (ou seja, minimiza todas as janelas ativas)."
+  },
+  {
+    "question": "No **MS Excel**, se um usuário selecionar um conjunto de células e pressionar **Ctrl + 1**, o que é exibido?",
+    "answers": [
+      {
+        "option": "A caixa de diálogo Formatar Células.",
+        "correct": true
+      },
+      {
+        "option": "A caixa de diálogo Inserir Função.",
+        "correct": false
+      },
+      {
+        "option": "O painel de tarefas Localizar e Substituir.",
+        "correct": false
+      },
+      {
+        "option": "O Gerenciador de Nomes.",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Ctrl + 1 abre a caixa de diálogo Formatar Células, essencial para alterar formatos de número, alinhamento e fonte."
+  },
+  {
+    "question": "Ao utilizar o **Zoom** durante uma conferência, um usuário precisa **iniciar ou parar o compartilhamento de sua tela**. Qual é o atalho de teclado padrão para essa ação?",
+    "answers": [
+      {
+        "option": "Alt + V",
+        "correct": false
+      },
+      {
+        "option": "Alt + R",
+        "correct": false
+      },
+      {
+        "option": "Alt + S",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Shift + M",
+        "correct": false
+      }
+    ],
+    "reforço": "O atalho Alt + S inicia/para o compartilhamento de tela no Zoom."
+  },
+  {
+    "question": "Em uma ferramenta de comunicação digital como **WhatsApp Web**, qual atalho permite ao usuário **marcar a conversa selecionada como 'Não Lida'**?",
+    "answers": [
+      {
+        "option": "Ctrl + Alt + Shift + R",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Alt + Shift + U",
+        "correct": true
+      },
+      {
+        "option": "Ctrl + Alt + N",
+        "correct": false
+      },
+      {
+        "option": "Ctrl + Enter",
+        "correct": false
+      }
+    ],
+    "reforço": "A combinação Ctrl + Alt + Shift + U é usada para marcar a conversa como não lida no WhatsApp Web."
   }
 ]

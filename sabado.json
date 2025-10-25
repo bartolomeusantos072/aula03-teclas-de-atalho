@@ -1,253 +1,212 @@
 [
   {
-    "question": "No MS-DOS, os comandos DIR e REN são utilizados, respectivamente, para:",
+    "question": "Qual atalho é usado para selecionar todo o conteúdo de uma janela ou documento no Windows 10?",
     "answers": [
-      {
-        "option": "Renomear um arquivo e excluir um diretório.",
-        "correct": false
-      },
-      {
-        "option": "Visualizar a árvore de diretórios e reindexar os arquivos em um diretório.",
-        "correct": false
-      },
-      {
-        "option": "Exibir uma lista de arquivos e pastas de um diretório e renomear um arquivo.",
-        "correct": true
-      },
-      {
-        "option": "Concatenar o conteúdo de dois arquivos e alterar os atributos de um arquivo.",
-        "correct": false
-      }
+      { "option": "CTRL + C", "correct": false },
+      { "option": "CTRL + A", "correct": true },
+      { "option": "CTRL + V", "correct": false },
+      { "option": "CTRL + X", "correct": false }
     ],
-    "reforço": "O comando 'DIR' é usado para listar os arquivos e pastas de um diretório. Já o comando 'REN' (de rename) é utilizado para renomear arquivos. Nenhum dos dois serve para excluir, concatenar ou alterar atributos."
+    "reforço": "O atalho 'CTRL + A' seleciona todos os itens de um diretório, arquivo ou texto aberto."
   },
   {
-    "question": "O Microsoft Disk Operation System (MS-DOS) ou Sistema Operacional de Discos, da Microsoft, foi um dos primeiros sistemas operacionais desta empresa. Não possuía interface gráfica, e durante muito tempo esteve presente nos sistemas gráficos Windows. Nos sistemas Windows da atualidade é possível se ter acesso a vários comandos do MS-DOS, através do Prompt de Comandos. Muitos comandos úteis na manutenção do sistema podem ser acessados pelo Prompt de Comando, e alguns com uma boa eficiência. Após executar qualquer comando, o comando CLS pode ser utilizado para “limpar a tela”, e posiciona o cursor no canto superior esquerdo da tela. Para verificar o conteúdo de uma determinada pasta, o comando DIR pode ser utilizado e o mesmo se utiliza de algumas opções para aumentar sua eficiência. Uma dessas opções é utilizada para mostrar o “dono do arquivo”. Assinale a alternativa que, utilizada com o comando DIR, mostra o “dono do arquivo”.",
+    "question": "Qual atalho copia itens para a área de transferência no Windows 10?",
     "answers": [
-      { "option": "/p.", "correct": false },
-      { "option": "/b.", "correct": false },
-      { "option": "/c.", "correct": false },
-      { "option": "/q.", "correct": true }
+      { "option": "CTRL + C", "correct": true },
+      { "option": "CTRL + V", "correct": false },
+      { "option": "CTRL + X", "correct": false },
+      { "option": "CTRL + D", "correct": false }
     ],
-    "reforço": "A opção /q no comando DIR exibe o proprietário (dono) de cada arquivo listado. As outras opções têm funções diferentes: /p pausa a exibição, /b mostra apenas os nomes dos arquivos, e /c exibe o tamanho com separadores de milhar."
+    "reforço": "O comando 'CTRL + C' copia o item selecionado para a área de transferência."
   },
   {
-    "question": "No prompt de comandos do Windows, o que acontece ao digitarmos o comando format c: seguido da tecla ENTER?",
+    "question": "Qual atalho recorta itens para a área de transferência?",
     "answers": [
-      { "option": "formata o texto c:", "correct": false },
-      { "option": "formata a unidade de disco C", "correct": true },
-      { "option": "formata o caracter C", "correct": false },
-      { "option": "formata o arquivo", "correct": false },
-      { "option": "este comando não existe", "correct": false }
+      { "option": "CTRL + X", "correct": true },
+      { "option": "CTRL + C", "correct": false },
+      { "option": "CTRL + V", "correct": false },
+      { "option": "CTRL + A", "correct": false }
     ],
-    "reforço": "O comando 'format c:' é utilizado para formatar a unidade de disco C, apagando todos os dados nela."
+    "reforço": "'CTRL + X' remove o item selecionado e o copia para a área de transferência, pronto para colagem."
   },
   {
-    "question": "Ao digitarmos o comando cd\\Intel no prompt de comandos do Windows qual o resultado?",
+    "question": "Qual atalho cola itens da área de transferência?",
     "answers": [
-      { "option": "cria o diretório Intel", "correct": false },
-      { "option": "apaga o diretório Intel", "correct": false },
-      { "option": "muda as permissões do diretório Intel", "correct": false },
-      { "option": "copia os arquivos do diretório Intel", "correct": false },
-      { "option": "acessa o diretório Intel", "correct": true }
+      { "option": "CTRL + A", "correct": false },
+      { "option": "CTRL + C", "correct": false },
+      { "option": "CTRL + V", "correct": true },
+      { "option": "CTRL + X", "correct": false }
     ],
-    "reforço": "O comando 'cd\\Intel' acessa o diretório Intel localizado na raiz do drive atual."
+    "reforço": "O atalho 'CTRL + V' insere o conteúdo copiado ou recortado no local atual."
   },
   {
-    "question": "Para que serve o comando “Format C: /s” no MS-DOS?",
+    "question": "Qual atalho desfaz a última ação executada no Windows 10?",
     "answers": [
-      { "option": "A Formata o disco na unidade escolhida e grava o sistema operacional MS-DOS após a formatação.", "correct": true },
-      { "option": "B Formata o disco na unidade escolhida com mais rapidez.", "correct": false },
-      { "option": "C Formata o disco na unidade escolhida e instala o Windows automaticamente.", "correct": false },
-      { "option": "D Formata apenas os diretórios do sistema, preservando os arquivos pessoais.", "correct": false }
+      { "option": "CTRL + Z", "correct": true },
+      { "option": "CTRL + Y", "correct": false },
+      { "option": "ALT + F4", "correct": false },
+      { "option": "ESC", "correct": false }
     ],
-    "reforço": "O comando 'format C: /s' formata a unidade C: e copia os arquivos essenciais do sistema MS-DOS para torná-lo inicializável."
+    "reforço": "O atalho 'CTRL + Z' é usado para desfazer a última ação executada."
   },
   {
-    "question": "O arquivo em lote (batch) teste.bat, localizado na pasta “c:\\tmp”, possui o seguinte conteúdo: @echo off rename %1 %2. Sabendo-se que o usuário está na pasta “c:\\tmp” e que essa pasta possui o arquivo “x.txt”, qual será o resultado obtido ao entrar com o comando: teste.bat x.txt y.txt?",
+    "question": "Qual atalho refaz a última ação desfeita?",
     "answers": [
-      { "option": "A O arquivo denominado “%1” será renomeado para “%2”.", "correct": false },
-      { "option": "B O arquivo denominado “x.txt” será renomeado para “y.txt”.", "correct": true },
-      { "option": "C O conteúdo dos dois arquivos “x.txt” e “y.txt” será “rename”.", "correct": false },
-      { "option": "D Os dois arquivos “x.txt” e “y.txt” serão impressos devido ao comando @echo off.", "correct": false },
-      { "option": "E Nenhum processamento será realizado devido ao comando @echo off.", "correct": false }
+      { "option": "CTRL + Y", "correct": true },
+      { "option": "CTRL + Z", "correct": false },
+      { "option": "CTRL + A", "correct": false },
+      { "option": "CTRL + D", "correct": false }
     ],
-    "reforço": "O comando 'rename %1 %2' renomeia o primeiro parâmetro (x.txt) para o segundo (y.txt)."
+    "reforço": "'CTRL + Y' serve para refazer uma ação que foi desfeita com 'CTRL + Z'."
   },
   {
-    "question": "Qual comando é utilizado para se fazer uma formatação rápida do drive C: em modo MS-DOS?",
+    "question": "Qual atalho fecha a janela atual no Windows 10?",
     "answers": [
-      { "option": "A Format C:", "correct": false },
-      { "option": "B Format C: /a", "correct": false },
-      { "option": "C Format C: /q", "correct": true },
-      { "option": "D Deltree C:\\", "correct": false },
-      { "option": "E Del C:\\*.*", "correct": false }
+      { "option": "ALT + F4", "correct": true },
+      { "option": "CTRL + F4", "correct": false },
+      { "option": "CTRL + W", "correct": false },
+      { "option": "CTRL + D", "correct": false }
     ],
-    "reforço": "A opção /q no comando FORMAT realiza uma formatação rápida da unidade especificada."
+    "reforço": "O atalho 'ALT + F4' fecha o programa ou janela ativa."
   },
   {
-    "question": "Sobre comandos MS‐DOS, analise as afirmativas a seguir.<br><br>I. Os comandos CDDIR e RMDIR são utilizados, respectivamente, para criar e remover diretórios.<br>II. O comando TREE é utilizado para exibir graficamente a árvore de diretórios a partir do diretório‐raiz.<br>III. Os comandos CLS e CD são utilizados respectivamente para limpar as informações do prompt de comando e mudar o diretório corrente para outro a partir da pasta atual.<br><br>Está(ão) correta(s) apenas a(s) afirmativa(s):",
+    "question": "Qual atalho deleta itens selecionados enviando-os para a Lixeira?",
     "answers": [
-      { "option": "I.", "correct": false },
-      { "option": "II.", "correct": false },
-      { "option": "III.", "correct": false },
-      { "option": "II e III.", "correct": true }
+      { "option": "CTRL + D ou Delete", "correct": true },
+      { "option": "Shift + Delete", "correct": false },
+      { "option": "CTRL + X", "correct": false },
+      { "option": "CTRL + Backspace", "correct": false }
     ],
-    "reforço": "Afirmativa I está incorreta porque o comando correto para criar diretórios é 'MD' ou 'MKDIR', não 'CDDIR'. As afirmativas II e III estão corretas."
+    "reforço": "'CTRL + D' ou a tecla 'Delete' movem arquivos para a Lixeira."
   },
   {
-    "question": "Na computação, preempção é o ato de interromper temporariamente uma tarefa a ser realizada por um sistema de computador sem a necessidade de sua cooperação e com a intenção de retomar a tarefa em um momento posterior. Marque a alternativa em que o sistema operacional não é multitarefa com preempção:",
+    "question": "Qual atalho exclui permanentemente um arquivo, sem enviá-lo para a Lixeira?",
     "answers": [
-      { "option": "Linux", "correct": false },
-      { "option": "Windows NT", "correct": false },
-      { "option": "MS-DOS", "correct": true },
-      { "option": "MS-Windows", "correct": false },
-      { "option": "Cronix", "correct": false }
+      { "option": "Shift + Delete", "correct": true },
+      { "option": "CTRL + D", "correct": false },
+      { "option": "ALT + F4", "correct": false },
+      { "option": "CTRL + X", "correct": false }
     ],
-    "reforço": "O MS-DOS não é um sistema operacional multitarefa com preempção. Ele executa uma tarefa por vez e não possui gerenciamento de processos como os sistemas modernos."
+    "reforço": "'Shift + Delete' apaga o arquivo definitivamente, sem passar pela Lixeira."
   },
   {
-    "question": "Para a digitação de comandos do MSDOS (Microsoft Disk Operating System), pelo Windows, devo acionar o:",
+    "question": "Qual tecla é usada para renomear um arquivo ou pasta?",
     "answers": [
-      { "option": "script de comando.", "correct": false },
-      { "option": "prompt de comando", "correct": true },
-      { "option": "script de arquivos.", "correct": false },
-      { "option": "prompt de arquivos", "correct": false }
+      { "option": "F2", "correct": true },
+      { "option": "F5", "correct": false },
+      { "option": "F11", "correct": false },
+      { "option": "ALT + R", "correct": false }
     ],
-    "reforço": "O 'Prompt de Comando' é a interface utilizada para digitar comandos do MS-DOS no Windows."
+    "reforço": "A tecla 'F2' ativa o modo de renomear o item selecionado."
   },
   {
-    "question": "Os arquivos .BAT estão presentes nos sistemas operacionais da Microsoft desde a época do DOS, chegando até os modernos Windows 8. Seu comportamento padrão é imprimir o comando a ser executado antes de executá-lo.<br><br>Quando o programador de um arquivo .BAT deseja que ele opere “em silêncio”, sem mostrar nenhum dos comandos que vai executar dentro desse arquivo, deve usar no início do arquivo o comando:",
+    "question": "Qual tecla cancela uma ação em andamento?",
     "answers": [
-      { "option": "@echo off", "correct": true },
-      { "option": "@mute", "correct": false },
-      { "option": "echo off", "correct": false },
-      { "option": "set -v off", "correct": false },
-      { "option": "set echo off", "correct": false }
+      { "option": "ESC", "correct": true },
+      { "option": "CTRL + Z", "correct": false },
+      { "option": "ALT + F4", "correct": false },
+      { "option": "Shift + ESC", "correct": false }
     ],
-    "reforço": "O comando '@echo off' suprime a exibição dos comandos em execução dentro de um arquivo .BAT, permitindo que ele opere silenciosamente."
+    "reforço": "A tecla 'Esc' cancela operações ou fecha menus e diálogos abertos."
   },
   {
-    "question": "Na plataforma MS-DOS, por meio do comando Attrib –r + h C:\\>texto.txt, é possível alterar os atributos do arquivo texto.txt, removendo o atributo de somente leitura e adicionando o atributo de arquivo oculto.",
+    "question": "Qual atalho alterna rapidamente entre janelas abertas?",
     "answers": [
-      { "option": "Certo", "correct": true },
-      { "option": "Errado", "correct": false }
+      { "option": "ALT + Tab", "correct": true },
+      { "option": "CTRL + Tab", "correct": false },
+      { "option": "CTRL + ALT + Del", "correct": false },
+      { "option": "ALT + ESC", "correct": false }
     ],
-    "reforço": "O comando 'attrib -r +h texto.txt' remove o atributo de somente leitura (-r) e adiciona o atributo de oculto (+h) ao arquivo especificado."
+    "reforço": "O atalho 'ALT + Tab' permite alternar entre programas abertos."
   },
   {
-    "question": "Para identificar se o computador “C” está ativo na rede, através do computador “A”, basta que no prompt de comando DOS seja utilizado o comando:",
+    "question": "Qual tecla captura a tela e salva na área de transferência?",
     "answers": [
-      { "option": "Tragetory.", "correct": false },
-      { "option": "Tree", "correct": false },
-      { "option": "Ping.", "correct": true },
-      { "option": "Route.", "correct": false },
-      { "option": "Data Verification.", "correct": false }
+      { "option": "PrtScn", "correct": true },
+      { "option": "CTRL + P", "correct": false },
+      { "option": "ALT + PrtScn", "correct": false },
+      { "option": "Shift + PrtScn", "correct": false }
     ],
-    "reforço": "O comando 'ping' é utilizado para verificar a conectividade entre computadores em uma rede."
+    "reforço": "'PrtScn' copia a imagem da tela inteira para a área de transferência."
   },
   {
-    "question": "Assinale a alternativa que apresenta o comando em código fonte do DOS (arquivos com extensão .bat na linha de comando do Windows XP, em sua configuração original) para se executar um desvio incondicional.",
+    "question": "Qual atalho abre as Configurações do sistema no Windows 10?",
     "answers": [
-      { "option": "echo", "correct": false },
-      { "option": "if", "correct": false },
-      { "option": "pause>nul", "correct": false },
-      { "option": "goto", "correct": true },
-      { "option": "set input", "correct": false }
+      { "option": "Tecla Windows + I", "correct": true },
+      { "option": "Tecla Windows + E", "correct": false },
+      { "option": "Tecla Windows + D", "correct": false },
+      { "option": "Tecla Windows + X", "correct": false }
     ],
-    "reforço": "O comando 'goto' realiza um desvio incondicional para um rótulo especificado dentro de um arquivo .bat."
+    "reforço": "'Win + I' abre diretamente o painel de Configurações do Windows."
   },
   {
-    "question": "O DOS é um sistema operacional que suporta a execução de arquivos em lote, arquivos executáveis e de comando.",
+    "question": "Qual atalho abre o Explorador de Arquivos?",
     "answers": [
-      { "option": "Certo", "correct": true },
-      { "option": "Errado", "correct": false }
+      { "option": "Tecla Windows + E", "correct": true },
+      { "option": "Tecla Windows + I", "correct": false },
+      { "option": "Tecla Windows + R", "correct": false },
+      { "option": "CTRL + N", "correct": false }
     ],
-    "reforço": "O DOS permite a execução de arquivos .bat (em lote), arquivos executáveis (.exe) e comandos internos."
+    "reforço": "'Win + E' abre o Explorador de Arquivos do Windows."
   },
   {
-    "question": "No DOS, o sistema de arquivos suporta o nome de arquivos com até 8 caracteres e extensão em até 3 caracteres.",
+    "question": "Qual atalho abre a Central de Ações do Windows 10?",
     "answers": [
-      { "option": "Certo", "correct": true },
-      { "option": "Errado", "correct": false }
+      { "option": "Tecla Windows + A", "correct": true },
+      { "option": "Tecla Windows + C", "correct": false },
+      { "option": "Tecla Windows + D", "correct": false },
+      { "option": "Tecla Windows + F", "correct": false }
     ],
-    "reforço": "O sistema de arquivos do DOS segue o padrão 8.3, com até 8 caracteres no nome e 3 na extensão."
+    "reforço": "'Win + A' exibe a Central de Ações, onde estão as notificações e atalhos rápidos."
   },
   {
-    "question": "Marque V para as afirmativas verdadeiras e F para as falsas:<br>I. O MS-DOS é um Sistema Operacional multiprogramado.<br>II. O Sistema Operacional Windows XP foi desenvolvido para microcomputadores Apple.<br>III. 2 KBytes é igual a 2.048 Bytes.<br>IV. No Windows Explorer é possível excluir uma pasta mesmo que ela não esteja vazia.<br>V. Mozilla Firefox é um editor de textos da Microsoft.",
+    "question": "Qual atalho abre o histórico da área de transferência?",
     "answers": [
-      { "option": "V – V – V – V – V", "correct": false },
-      { "option": "F – F – V – V – V", "correct": false },
-      { "option": "F – F – V – V – F", "correct": true },
-      { "option": "V – V – V – V – F", "correct": false },
-      { "option": "F – V – V – V – F", "correct": false }
+      { "option": "Tecla Windows + V", "correct": true },
+      { "option": "Tecla Windows + C", "correct": false },
+      { "option": "CTRL + V", "correct": false },
+      { "option": "ALT + V", "correct": false }
     ],
-    "reforço": "I: F (MS-DOS não é multiprogramado), II: F (Windows XP é da Microsoft), III: V (2 KB = 2048 Bytes), IV: V, V: F (Firefox é navegador da Mozilla)."
+    "reforço": "'Win + V' mostra o histórico de itens copiados na área de transferência."
   },
   {
-    "question": "Qual comando do MS-DOS que cria um diretório em um disco?",
+    "question": "Qual atalho permite capturar parte da tela usando a Ferramenta de Captura?",
     "answers": [
-      { "option": "CD.", "correct": false },
-      { "option": "DIR.", "correct": false },
-      { "option": "CHKDSK.", "correct": false },
-      { "option": "CHDIR.", "correct": false },
-      { "option": "MKDIR.", "correct": true }
+      { "option": "Tecla Windows + Shift + S", "correct": true },
+      { "option": "PrtScn", "correct": false },
+      { "option": "CTRL + P", "correct": false },
+      { "option": "ALT + F4", "correct": false }
     ],
-    "reforço": "O comando 'mkdir' (ou 'md') é utilizado para criar diretórios no MS-DOS."
+    "reforço": "'Win + Shift + S' abre a ferramenta de recorte para capturar parte da tela."
   },
   {
-    "question": "Deseja-se listar na tela somente os arquivos que têm exatamente duas letras antes da extensão, não importando qual a extensão. O comando MS-DOS que produz a lista é:",
+    "question": "Qual atalho captura e salva automaticamente a tela na pasta Capturas de Tela?",
     "answers": [
-      { "option": "DIR *.*", "correct": false },
-      { "option": "DIR **.?", "correct": false },
-      { "option": "DIR ??.?", "correct": false },
-      { "option": "DIR ??.*", "correct": true },
-      { "option": "DIR ??*.?", "correct": false }
+      { "option": "Tecla Windows + PrtScn", "correct": true },
+      { "option": "PrtScn", "correct": false },
+      { "option": "CTRL + PrtScn", "correct": false },
+      { "option": "ALT + PrtScn", "correct": false }
     ],
-    "reforço": "O padrão '??.*' seleciona arquivos com exatamente dois caracteres antes da extensão, qualquer extensão."
+    "reforço": "'Win + PrtScn' salva uma captura de tela automaticamente na pasta Imagens > Capturas de Tela."
   },
   {
-    "question": "O comando TYPE no MS-DOS serve para:",
+    "question": "Qual atalho abre uma nova janela no Explorador de Arquivos?",
     "answers": [
-      { "option": "mudar o tipo de um arquivo.", "correct": false },
-      { "option": "mudar a extensão de um arquivo.", "correct": false },
-      { "option": "listar o conteúdo de um arquivo.", "correct": true },
-      { "option": "listar um diretório de determinado tipo.", "correct": false },
-      { "option": "transformar um arquivo do tipo “dados” em um diretório, mantendo o mesmo nome.", "correct": false }
+      { "option": "CTRL + N", "correct": true },
+      { "option": "CTRL + W", "correct": false },
+      { "option": "CTRL + Shift + N", "correct": false },
+      { "option": "ALT + N", "correct": false }
     ],
-    "reforço": "O comando 'type' exibe o conteúdo de arquivos de texto diretamente no prompt."
+    "reforço": "'CTRL + N' abre uma nova janela no Explorador de Arquivos."
   },
   {
-    "question": "No MS DOS qual o comando utilizado para exibir na tela o conteúdo dos arquivos?",
+    "question": "Qual atalho fecha a janela atual do Explorador de Arquivos?",
     "answers": [
-      { "option": "Dir.", "correct": false },
-      { "option": "Type.", "correct": true },
-      { "option": "Cls.", "correct": false },
-      { "option": "Atrib.", "correct": false },
-      { "option": "Print screem.", "correct": false }
+      { "option": "CTRL + W", "correct": true },
+      { "option": "ALT + F4", "correct": false },
+      { "option": "CTRL + N", "correct": false },
+      { "option": "CTRL + Q", "correct": false }
     ],
-    "reforço": "O comando 'type' é usado para mostrar o conteúdo de arquivos de texto no MS-DOS."
-  },
-  {
-    "question": "No MS DOS, qual o comando utilizado para listar arquivos em uma determinada pasta?",
-    "answers": [
-      { "option": "Ls.", "correct": false },
-      { "option": "Dir.", "correct": true },
-      { "option": "List.", "correct": false },
-      { "option": "Print", "correct": false },
-      { "option": "diretorio", "correct": false }
-    ],
-    "reforço": "O comando 'dir' lista os arquivos e diretórios de uma pasta no MS-DOS."
-  },
-  {
-    "question": "Qual a função do parâmetro /A no comando COPY do DOS?",
-    "answers": [
-      { "option": "Suprimir o prompt de confirmação de cópia para arquivos já existentes no destino.", "correct": false },
-      { "option": "Indicar que o arquivo fonte é do tipo ASCII.", "correct": false },
-      { "option": "Indicar que deve ser usado um nome de arquivo curto.", "correct": false },
-      { "option": "Indicar que os atributos do arquivo fonte devem ser mantidos.", "correct": true },
-      { "option": "Indicar que a criação dos arquivos destinos sejam descriptografados.", "correct": false }
-    ],
-    "reforço": "O parâmetro /A no comando COPY indica que o arquivo é do tipo ASCII e deve manter seus atributos."
+    "reforço": "'CTRL + W' fecha a janela ativa no Explorador de Arquivos."
   }
 ]

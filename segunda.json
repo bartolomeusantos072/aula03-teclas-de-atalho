@@ -1,254 +1,262 @@
 [
   {
-    "question": "O sistema operacional é responsável por:",
+    "question": "Qual atalho abre a área de busca dentro do Explorador de Arquivos?",
     "answers": [
-      { "option": "Somente rodar jogos no computador.", "correct": false },
-      { "option": "Gerenciar apenas os programas de texto.", "correct": false },
-      {
-        "option": "Controlar o hardware e o software do computador.",
-        "correct": true
-      },
-      {
-        "option": "Produzir arquivos de música automaticamente.",
-        "correct": false
-      }
+      { "option": "CTRL + F", "correct": true },
+      { "option": "CTRL + H", "correct": false },
+      { "option": "ALT + F", "correct": false },
+      { "option": "CTRL + E", "correct": false }
     ],
-    "reforço": "O sistema operacional é o software mais importante do computador, pois gerencia tanto o hardware (partes físicas) quanto o software (programas e arquivos)."
+    "reforço": "No Explorador de Arquivos, o atalho 'CTRL + F' posiciona o cursor na barra de pesquisa."
   },
   {
-    "question": "O software cria arquivos, e o sistema operacional:",
+    "question": "Qual atalho cria uma nova pasta no Explorador de Arquivos?",
     "answers": [
-      { "option": "Apenas apaga os arquivos.", "correct": false },
-      {
-        "option": "Organiza em pastas e armazena os arquivos.",
-        "correct": true
-      },
-      {
-        "option": "Transforma os arquivos em números mágicos.",
-        "correct": false
-      },
-      { "option": "Usa só para abrir imagens.", "correct": false }
+      { "option": "CTRL + Shift + N", "correct": true },
+      { "option": "CTRL + N", "correct": false },
+      { "option": "ALT + N", "correct": false },
+      { "option": "Shift + F10", "correct": false }
     ],
-    "reforço": "O sistema operacional organiza os arquivos criados pelos softwares em pastas, facilitando o armazenamento e a localização dos mesmos."
+    "reforço": "'CTRL + Shift + N' cria uma nova pasta no diretório atual."
   },
   {
-    "question": "Qual alternativa apresenta tipos de arquivos?",
+    "question": "Qual atalho abre a janela de propriedades de um arquivo selecionado?",
     "answers": [
-      { "option": "Mouse, teclado e monitor.", "correct": false },
-      { "option": "Texto, imagem, áudio, vídeo.", "correct": true },
-      { "option": "Pastas, programas e ícones.", "correct": false },
-      { "option": "Hardware, software e internet.", "correct": false }
+      { "option": "ALT + Enter", "correct": true },
+      { "option": "CTRL + P", "correct": false },
+      { "option": "ALT + P", "correct": false },
+      { "option": "Shift + Enter", "correct": false }
     ],
-    "reforço": "Os tipos de arquivos mais comuns são texto (documentos), imagem (fotos), áudio (músicas) e vídeo (filmes)."
+    "reforço": "'ALT + Enter' exibe as propriedades do arquivo ou pasta selecionado."
   },
   {
-    "question": "Para o computador, todo arquivo é entendido como:",
+    "question": "Qual atalho alterna o modo de tela cheia no Explorador de Arquivos?",
     "answers": [
-      { "option": "Letras e imagens.", "correct": false },
-      { "option": "Números decimais (1 a 9).", "correct": false },
-      { "option": "Números binários (0 e 1).", "correct": true },
-      { "option": "Palavras e frases.", "correct": false }
+      { "option": "F11", "correct": true },
+      { "option": "F10", "correct": false },
+      { "option": "F5", "correct": false },
+      { "option": "ALT + F", "correct": false }
     ],
-    "reforço": "O computador interpreta todos os arquivos como números binários, compostos por 0s e 1s, que representam diferentes tipos de dados."
+    "reforço": "'F11' alterna o Explorador de Arquivos para o modo de tela cheia e volta ao normal ao pressionar novamente."
   },
   {
-    "question": "O tipo de arquivo ajuda o sistema operacional a:",
+    "question": "Qual atalho atualiza o conteúdo da janela atual?",
     "answers": [
-      {
-        "option": "Não se confundir entre um texto, uma imagem ou um vídeo.",
-        "correct": true
-      },
-      { "option": "Aumentar a memória do computador.", "correct": false },
-      { "option": "Gerar mais velocidade na internet.", "correct": false },
-      { "option": "Produzir sons automaticamente.", "correct": false }
+      { "option": "F5", "correct": true },
+      { "option": "CTRL + R", "correct": false },
+      { "option": "ALT + F5", "correct": false },
+      { "option": "F3", "correct": false }
     ],
-    "reforço": "O tipo de arquivo é essencial para o sistema operacional identificar e diferenciar entre textos, imagens, vídeos e outros formatos, garantindo que sejam abertos com os programas corretos."
+    "reforço": "A tecla 'F5' recarrega o conteúdo da janela ou pasta atual."
   },
   {
-    "question": "O MS-DOS é um sistema operacional que funciona:",
+    "question": "Qual tecla leva o usuário para o início da tela ou página?",
     "answers": [
-      { "option": "Por comandos de texto digitados.", "correct": true },
-      { "option": "Apenas com janelas e ícones.", "correct": false },
-      { "option": "Somente em celulares.", "correct": false },
-      { "option": "Exclusivamente em nuvem.", "correct": false }
+      { "option": "Home", "correct": true },
+      { "option": "End", "correct": false },
+      { "option": "PageUp", "correct": false },
+      { "option": "CTRL + Home", "correct": false }
     ],
-    "reforço": "O MS-DOS é um sistema operacional baseado em linha de comando, onde os usuários interagem digitando comandos de texto para executar tarefas."
+    "reforço": "'Home' move a visualização para o início da página ou lista."
   },
   {
-    "question": "No MS-DOS, o comando 'mkdir escola' serve para:",
+    "question": "Qual tecla move a visualização para o final da tela ou página?",
     "answers": [
-      { "option": "Apagar a pasta escola.", "correct": false },
-      { "option": "Criar uma pasta chamada escola.", "correct": true },
-      { "option": "Entrar dentro da pasta escola.", "correct": false },
-      { "option": "Mostrar os arquivos da pasta escola.", "correct": false }
+      { "option": "End", "correct": true },
+      { "option": "Home", "correct": false },
+      { "option": "PageDown", "correct": false },
+      { "option": "CTRL + End", "correct": false }
     ],
-    "reforço": "O comando 'mkdir escola' no MS-DOS é usado para criar uma nova pasta chamada 'escola'."
+    "reforço": "'End' leva o cursor ou visualização para o final da tela."
   },
   {
-    "question": "No MS-DOS, o comando 'cd escola' serve para:",
+    "question": "Qual atalho exibe a próxima pasta no Explorador de Arquivos?",
     "answers": [
-      { "option": "Apagar a pasta escola.", "correct": false },
-      { "option": "Criar a pasta escola.", "correct": false },
-      { "option": "Entrar dentro da pasta escola.", "correct": true },
-      { "option": "Mostrar os arquivos da pasta escola.", "correct": false }
+      { "option": "ALT + seta para a direita", "correct": true },
+      { "option": "ALT + seta para a esquerda", "correct": false },
+      { "option": "CTRL + seta para a direita", "correct": false },
+      { "option": "Shift + seta para a direita", "correct": false }
     ],
-    "reforço": "O comando 'cd escola' no MS-DOS é utilizado para mudar o diretório atual para a pasta chamada 'escola', permitindo que o usuário acesse seu conteúdo."
+    "reforço": "'ALT + seta para a direita' avança para a próxima pasta visitada."
   },
   {
-    "question": "Para digitar a letra 'A' maiúscula no teclado, o aluno deve usar:",
+    "question": "Qual atalho retorna para a pasta anterior no Explorador de Arquivos?",
     "answers": [
-      { "option": "Somente a tecla A.", "correct": false },
-      { "option": "A tecla Shift + A.", "correct": true },
-      { "option": "A tecla AltGr + A.", "correct": false },
-      { "option": "Não é possível digitar A maiúsculo.", "correct": false }
+      { "option": "ALT + seta para a esquerda", "correct": true },
+      { "option": "ALT + seta para a direita", "correct": false },
+      { "option": "CTRL + seta para a esquerda", "correct": false },
+      { "option": "F1", "correct": false }
     ],
-    "reforço": "Para digitar a letra 'A' maiúscula, o usuário deve pressionar e segurar a tecla Shift enquanto pressiona a tecla A."
+    "reforço": "'ALT + seta para a esquerda' retorna à pasta visualizada anteriormente."
   },
   {
-    "question": "Quando uma tecla possui três símbolos impressos, o terceiro símbolo é digitado com:",
+    "question": "Qual atalho abre o menu Iniciar do Windows?",
     "answers": [
-      { "option": "Somente a tecla Shift.", "correct": false },
-      { "option": "Somente a tecla Ctrl.", "correct": false },
-      { "option": "A tecla AltGr.", "correct": true },
-      { "option": "A tecla Caps Lock.", "correct": false }
+      { "option": "Tecla Windows", "correct": true },
+      { "option": "CTRL + ESC", "correct": false },
+      { "option": "ALT + Tab", "correct": false },
+      { "option": "CTRL + Shift + ESC", "correct": false }
     ],
-    "reforço": "O terceiro símbolo em uma tecla é acessado pressionando a tecla AltGr (Alternative Graphic), que permite digitar caracteres adicionais."
+    "reforço": "Pressionar a tecla Windows exibe o menu Iniciar."
   },
   {
-    "question": "No MS-DOS, os comandos move, cp e xcopy podem ser usados para transferir arquivos de um computador para o outro.",
+    "question": "Qual atalho altera o tamanho do menu Iniciar?",
     "answers": [
-      { "option": "Certo", "correct": false },
-      { "option": "Errado", "correct": true }
+      { "option": "CTRL + seta para cima/baixo", "correct": true },
+      { "option": "ALT + seta para cima/baixo", "correct": false },
+      { "option": "Shift + seta para cima/baixo", "correct": false },
+      { "option": "CTRL + seta para esquerda/direita", "correct": false }
     ],
-    "reforço": "No MS-DOS, os comandos 'move' e 'xcopy' servem para mover e copiar arquivos entre pastas ou unidades locais, mas não transferem arquivos diretamente entre computadores. O comando 'cp' não existe no MS-DOS."
+    "reforço": "'CTRL + seta para cima ou para baixo' ajusta o tamanho do menu Iniciar."
   },
   {
-    "question": "Nos equipamentos desktop com o Sistema Operacional Windows, temos o que chamamos de Command Prompt. Esta é uma forma de interagir com o Sistema Operacional de uma forma não gráfica. A estrutura visível ao usuário que adentrar no Sistema Operacional desta forma apresenta as seguintes propriedades.<br><br>I. Tipo Diretório.<br>II. Tipo 32 ou 64 bits.<br>III. Data Criação/alteração.<br>IV. Hora Criação/Alteração.<br>V. Nome Arquivo.<br><br>Estão corretas as afirmativas:",
+    "question": "Qual atalho abre o Gerenciador de Tarefas?",
     "answers": [
-      { "option": "III e IV apenas", "correct": false },
-      { "option": "I, III, IV e V apenas", "correct": true },
-      { "option": "I, III e V apenas", "correct": false },
-      { "option": "I, II, III, IV e V", "correct": false }
+      { "option": "CTRL + Shift + ESC", "correct": true },
+      { "option": "CTRL + ALT + DEL", "correct": false },
+      { "option": "ALT + F4", "correct": false },
+      { "option": "CTRL + ESC", "correct": false }
     ],
-    "reforço": "No Command Prompt, ao listar arquivos e diretórios, são exibidos o tipo (diretório ou arquivo), data e hora de criação/alteração, e o nome do arquivo. O tipo 32 ou 64 bits não é exibido nessa estrutura."
+    "reforço": "'CTRL + Shift + ESC' abre diretamente o Gerenciador de Tarefas."
   },
   {
-    "question": "Nos equipamentos desktop com o Sistema Operacional Windows, temos o que chamamos de Command Prompt. Esta é uma forma de interagir com o Sistema Operacional de uma forma não gráfica. A estrutura visível ao usuário que adentrar no Sistema Operacional desta forma apresenta as seguintes propriedades.<br><br>I. Tipo Diretório.<br>II. Tipo 32 ou 64 bits.<br>III. Data Criação/alteração.<br>IV. Hora Criação/Alteração.<br>V. Nome Arquivo.<br><br>Estão corretas as afirmativas:",
+    "question": "Qual atalho mostra todos os programas abertos em uma grade de visualização?",
     "answers": [
-      { "option": "III e IV apenas", "correct": false },
-      { "option": "I, III, IV e V apenas", "correct": true },
-      { "option": "I, III e V apenas", "correct": false },
-      { "option": "I, II, III, IV e V", "correct": false }
+      { "option": "CTRL + ALT + Tab", "correct": true },
+      { "option": "ALT + Tab", "correct": false },
+      { "option": "CTRL + Tab", "correct": false },
+      { "option": "Win + Tab", "correct": false }
     ],
-    "reforço": "No Command Prompt, ao listar arquivos e diretórios, são exibidos o tipo (diretório ou arquivo), data e hora de criação/alteração, e o nome do arquivo. O tipo 32 ou 64 bits não é exibido nessa estrutura."
+    "reforço": "'CTRL + ALT + Tab' exibe todos os aplicativos abertos e permite alternar entre eles."
   },
   {
-    "question": "ATTRIB se trata de um comando do Sistema Operacional MS-DOS utilizado para mostrar os atributos de um arquivo e/ou alterá-los. Com o sinal de mais (+) acrescenta-se um atributo e com o sinal de menos (–) retira-se o atributo. O comando ATTRIB tem função análoga ao [chmod] dos sistemas GNU/Linux. Sua sintaxe é: attrib <opções> <unidade> <caminho> <arquivo>. Assinale, a seguir, o atributo de arquivo oculto.",
+    "question": "Qual atalho permite selecionar múltiplos arquivos no Explorador de Arquivos?",
     "answers": [
-      { "option": "A", "correct": false },
-      { "option": "H", "correct": true },
-      { "option": "R", "correct": false },
-      { "option": "S", "correct": false }
+      { "option": "CTRL + setas + espaço", "correct": true },
+      { "option": "Shift + setas", "correct": false },
+      { "option": "CTRL + Shift + A", "correct": false },
+      { "option": "ALT + setas", "correct": false }
     ],
-    "reforço": "No MS-DOS, o atributo 'H' indica que o arquivo é oculto (Hidden)."
+    "reforço": "'CTRL + setas + espaço' permite selecionar vários arquivos não contíguos."
   },
   {
-    "question": "Na linha de comando do Sistema Operacional MS-DOS, o comando _____ é usado para apagar um ou mais diretórios junto com todos os seus subdiretórios e arquivos neles contidos. Assinale a alternativa que completa corretamente a afirmativa anterior.",
+    "question": "Qual atalho move a tela para cima?",
     "answers": [
-      { "option": "DEL", "correct": false },
-      { "option": "FIND", "correct": false },
-      { "option": "RMDIR", "correct": false },
-      { "option": "DELTREE", "correct": true }
+      { "option": "PageUp", "correct": true },
+      { "option": "PageDown", "correct": false },
+      { "option": "Home", "correct": false },
+      { "option": "End", "correct": false }
     ],
-    "reforço": "O comando 'DELTREE' no MS-DOS apaga diretórios, subdiretórios e todos os arquivos contidos neles."
+    "reforço": "A tecla 'PageUp' rola o conteúdo da tela para cima."
   },
   {
-    "question": "Qual a função do parâmetro /-C no comando DIR do DOS?",
+    "question": "Qual atalho move a tela para baixo?",
     "answers": [
-      { "option": "Exibir o proprietário dos arquivos.", "correct": false },
-      {
-        "option": "Ignorar a data de criação dos arquivos na ordenação da listagem.",
-        "correct": false
-      },
-      {
-        "option": "Fazer uma pausa a cada tela de informações.",
-        "correct": false
-      },
-      {
-        "option": "Não exibir o separador de milhar no tamanho dos arquivos.",
-        "correct": true
-      },
-      {
-        "option": "Ordenar pela data de criação dos arquivos.",
-        "correct": false
-      }
+      { "option": "PageDown", "correct": true },
+      { "option": "PageUp", "correct": false },
+      { "option": "End", "correct": false },
+      { "option": "Home", "correct": false }
     ],
-    "reforço": "O parâmetro /-C no comando DIR remove o separador de milhar na exibição do tamanho dos arquivos, tornando a visualização mais compacta."
+    "reforço": "'PageDown' rola o conteúdo da tela para baixo."
   },
   {
-    "question": "No MS-DOS, para que serve o comando “RD”?",
+    "question": "Qual atalho alterna rapidamente entre as janelas abertas em ordem sequencial?",
     "answers": [
-      { "option": "Para criar um novo diretório.", "correct": false },
-      {
-        "option": "Para verificar a integridade dos arquivos.",
-        "correct": false
-      },
-      { "option": "Para apagar um diretório existente.", "correct": true },
-      { "option": "Para entrar no Windows.", "correct": false }
+      { "option": "ALT + ESC", "correct": true },
+      { "option": "ALT + Tab", "correct": false },
+      { "option": "CTRL + ESC", "correct": false },
+      { "option": "Shift + Tab", "correct": false }
     ],
-    "reforço": "O comando 'RD' (Remove Directory) é usado para excluir diretórios vazios no MS-DOS."
+    "reforço": "'ALT + ESC' alterna entre janelas abertas em sequência."
   },
   {
-    "question": "Observe o comando a seguir, que foi digitado no MS-DOS: “MD Arquivos de Programas”. O que vai acontecer quando o comando for confirmado?",
+    "question": "Qual atalho executa um programa como administrador a partir da barra de tarefas?",
     "answers": [
-      {
-        "option": "O diretório “Arquivos de Programas” vai ser deletado.",
-        "correct": false
-      },
-      {
-        "option": "O diretório “Arquivos de Programas” vai ser ocultado.",
-        "correct": false
-      },
-      {
-        "option": "Vai ser criado um novo diretório, com o nome “Arquivos de Programas”.",
-        "correct": true
-      },
-      {
-        "option": "O usuário vai entrar no diretório “Arquivos de Programas”.",
-        "correct": false
-      }
+      { "option": "CTRL + Shift + clique no ícone", "correct": true },
+      { "option": "ALT + clique", "correct": false },
+      { "option": "CTRL + clique", "correct": false },
+      { "option": "Shift + ESC", "correct": false }
     ],
-    "reforço": "O comando 'MD' (Make Directory) cria um novo diretório com o nome especificado, mesmo que contenha espaços."
+    "reforço": "'CTRL + Shift + clique' abre o programa selecionado com privilégios de administrador."
   },
   {
-    "question": "Observe o comando a seguir, que foi digitado no MS-DOS: “REN Ar.JPG Arquivo.JPG”. O que vai acontecer com o arquivo quando o comando for confirmado?",
+    "question": "Qual atalho exibe o menu de contexto de um programa na barra de tarefas?",
     "answers": [
-      {
-        "option": "O arquivo antes chamado Arquivo.JPG vai ser renomeado para Ar.JPG.",
-        "correct": false
-      },
-      { "option": "Ambos os arquivos vão ser deletados.", "correct": false },
-      {
-        "option": "O arquivo antes chamado Ar.JPG vai ser renomeado para Arquivo.JPG.",
-        "correct": true
-      },
-      {
-        "option": "O arquivo antes chamado REN vai ser dividido em outros dois novos arquivos.",
-        "correct": false
-      }
+      { "option": "Shift + clique com o botão direito no ícone", "correct": true },
+      { "option": "ALT + clique direito", "correct": false },
+      { "option": "CTRL + clique direito", "correct": false },
+      { "option": "Shift + clique esquerdo", "correct": false }
     ],
-    "reforço": "O comando 'REN Ar.JPG Arquivo.JPG' renomeia o arquivo 'Ar.JPG' para 'Arquivo.JPG'."
+    "reforço": "'Shift + clique direito' exibe o menu de contexto completo do aplicativo na barra de tarefas."
   },
   {
-    "question": "Para que serve o comando “Format C: /s” no MS-DOS?",
+    "question": "Qual atalho move o cursor para o início da palavra anterior?",
     "answers": [
-      { "option": "Formata o disco na unidade escolhida e grava o sistema operacional MS-DOS após a formatação.", "correct": true },
-      { "option": "Formata o disco na unidade escolhida com mais rapidez.", "correct": false },
-      { "option": "Formata o disco na unidade escolhida e instala o Windows automaticamente.", "correct": false },
-      { "option": "Formata apenas os diretórios do sistema, preservando os arquivos pessoais.", "correct": false }
+      { "option": "CTRL + seta para esquerda", "correct": true },
+      { "option": "CTRL + seta para direita", "correct": false },
+      { "option": "ALT + seta para esquerda", "correct": false },
+      { "option": "Shift + Home", "correct": false }
     ],
-    "reforço": "O parâmetro /s copia os arquivos do sistema após a formatação, tornando o disco inicializável."
+    "reforço": "'CTRL + seta para a esquerda' move o cursor para o início da palavra anterior."
+  },
+  {
+    "question": "Qual atalho move o cursor para o final da palavra seguinte?",
+    "answers": [
+      { "option": "CTRL + seta para direita", "correct": true },
+      { "option": "CTRL + seta para esquerda", "correct": false },
+      { "option": "ALT + seta para direita", "correct": false },
+      { "option": "Shift + End", "correct": false }
+    ],
+    "reforço": "'CTRL + seta para a direita' move o cursor para o final da próxima palavra."
+  },
+  {
+    "question": "Qual atalho move o cursor para o início do parágrafo?",
+    "answers": [
+      { "option": "CTRL + seta para cima", "correct": true },
+      { "option": "CTRL + seta para baixo", "correct": false },
+      { "option": "ALT + seta para cima", "correct": false },
+      { "option": "Shift + Home", "correct": false }
+    ],
+    "reforço": "'CTRL + seta para cima' move o cursor para o início do parágrafo anterior."
+  },
+  {
+    "question": "Qual atalho move o cursor para o final do parágrafo atual?",
+    "answers": [
+      { "option": "CTRL + seta para baixo", "correct": true },
+      { "option": "CTRL + seta para cima", "correct": false },
+      { "option": "ALT + seta para baixo", "correct": false },
+      { "option": "Shift + End", "correct": false }
+    ],
+    "reforço": "'CTRL + seta para baixo' move o cursor para o final do parágrafo atual."
+  },
+  {
+    "question": "Qual atalho seleciona todo o parágrafo acima ou abaixo?",
+    "answers": [
+      { "option": "CTRL + Shift + seta para cima/baixo", "correct": true },
+      { "option": "Shift + seta para cima/baixo", "correct": false },
+      { "option": "ALT + seta para cima/baixo", "correct": false },
+      { "option": "CTRL + seta para esquerda/direita", "correct": false }
+    ],
+    "reforço": "'CTRL + Shift + seta para cima/baixo' seleciona todo o parágrafo em um editor de texto."
+  },
+  {
+    "question": "Qual atalho gira a tela 90 graus à direita?",
+    "answers": [
+      { "option": "CTRL + ALT + seta para direita", "correct": true },
+      { "option": "CTRL + ALT + seta para esquerda", "correct": false },
+      { "option": "CTRL + ALT + seta para cima", "correct": false },
+      { "option": "CTRL + ALT + seta para baixo", "correct": false }
+    ],
+    "reforço": "'CTRL + ALT + seta para direita' gira a tela 90° para a direita."
+  },
+  {
+    "question": "Qual atalho gira a tela de cabeça para baixo (180 graus)?",
+    "answers": [
+      { "option": "CTRL + ALT + seta para baixo", "correct": true },
+      { "option": "CTRL + ALT + seta para direita", "correct": false },
+      { "option": "CTRL + ALT + seta para esquerda", "correct": false },
+      { "option": "CTRL + ALT + seta para cima", "correct": false }
+    ],
+    "reforço": "'CTRL + ALT + seta para baixo' gira a tela 180°, invertendo a orientação."
   }
-
 ]
-
